@@ -2,6 +2,7 @@ fastapi
 uvicorn[standard]
 docling
 chonkie
+fastembed
 voyageai
 qdrant-client
 openai
