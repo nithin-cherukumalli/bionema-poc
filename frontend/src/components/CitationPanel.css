@@ -1,0 +1,87 @@
+.citation-container {
+  margin-top: 0.5rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  font-size: 0.875rem;
+}
+
+.citation-container.highlighted {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 2px var(--accent-light);
+}
+
+.citation-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  color: var(--text-secondary);
+  transition: background var(--transition-fast);
+}
+
+.citation-toggle:hover {
+  background: var(--bg-surface-hover);
+}
+
+.citation-marker {
+  font-family: monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  background: var(--accent-light);
+  padding: 0.125rem 0.375rem;
+  border-radius: 4px;
+  overflow-wrap: anywhere;
+}
+
+.citation-preview {
+  flex-grow: 1;
+  text-align: left;
+  font-weight: 500;
+}
+
+.citation-content {
+  padding: 0.75rem;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-primary);
+}
+
+.citation-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  color: var(--text-tertiary);
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.citation-doc-title {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.citation-section {
+  overflow-wrap: anywhere;
+}
+
+.citation-quote {
+  color: var(--text-primary);
+  line-height: 1.5;
+  border-left: 3px solid var(--accent-color);
+  padding-left: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.citation-footer {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+}

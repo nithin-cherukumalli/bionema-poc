@@ -1,0 +1,35 @@
+{
+  "documents": [
+    {
+      "doc_id": "WO2020053603A1",
+      "title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "assignee": "Bionema Ltd",
+      "inventor": "Minshad Ali Ansari",
+      "filing_date": "2019-09-13",
+      "priority_date": "2018-09-14",
+      "publication_date": "2020-03-19",
+      "source_url": "https://patents.google.com/patent/WO2020053603A1/en",
+      "file": "data/patent_raw.txt",
+      "paragraph_numbering": "explicit_bracketed",
+      "notes": "Original filing carries [0001]-[00187] style paragraph markers. Use these directly as citation IDs during chunking."
+    },
+    {
+      "doc_id": "WO2020193969A1",
+      "title": "Pest Control Kit and Method",
+      "assignee": "Bionema Ltd",
+      "inventor": "Minshad Ansari",
+      "filing_date": "2020-03-24",
+      "priority_date": "2019-03-25",
+      "publication_date": "2020-10-01",
+      "source_url": "https://patents.google.com/patent/WO2020193969A1/en",
+      "file": "data/doc_02_raw.txt",
+      "paragraph_numbering": "section_and_example_headings",
+      "notes": "No bracketed paragraph numbers in this filing's extracted text. Citation IDs must be derived from SECTION/EXAMPLE headings instead (e.g. 'SECTION: EXAMPLE 4 - Control of vine weevil...'). Deliberately included to test the parser/chunker against a second real-world numbering convention, not just the clean bracketed case."
+    }
+  ],
+  "ingestion_notes": [
+    "Both documents are granted/published patents, public record via Google Patents. No confidential Bionema material is used in this proof of concept.",
+    "F01 (Docling parse) must preserve paragraph markers for doc 1 and section/example headings for doc 2 as distinct citation-anchor conventions -- do not force both into one schema silently; store a 'locator_type' field per chunk.",
+    "F08 cross-document eval questions should include at least a few that can only be answered by comparing findings across both documents (e.g. formulation/delivery approach differences) to prove retrieval isn't just doc-1-only."
+  ]
+}

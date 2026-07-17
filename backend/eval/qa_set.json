@@ -1,0 +1,177 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the strain name of the insect-pathogenic fungus described in the patent?",
+    "expected_locators": ["[0009]", "[0012]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q02",
+    "question": "What ICI CC Number is assigned to the Metarhizium anisopliae strain described?",
+    "expected_locators": ["[0009]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q03",
+    "question": "What percentage mortality rate did BNL 102 achieve against western flower thrips (WFT)?",
+    "expected_locators": ["[0072]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q04",
+    "question": "What insects or pests does the Metarhizium composition target?",
+    "expected_locators": ["[0024]", "[0072]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "paraphrase"
+  },
+  {
+    "id": "q05",
+    "question": "What substrates can be used for producing the Metarhizium anisopliae strain BNL 102?",
+    "expected_locators": ["[0012]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q06",
+    "question": "What types of spores are described in the patent?",
+    "expected_locators": ["[0015]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q07",
+    "question": "What physical forms can the composition take according to the patent?",
+    "expected_locators": ["[0018]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "paraphrase"
+  },
+  {
+    "id": "q08",
+    "question": "What nanoparticle or microparticle carriers are described for the fungal composition?",
+    "expected_locators": ["[0020]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q09",
+    "question": "What water activity level was used in the germination experiments?",
+    "expected_locators": ["[0120]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q10",
+    "question": "How does gum arabic formulation affect adult WFT survival compared to dry conidia?",
+    "expected_locators": ["[0060]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "paraphrase"
+  },
+  {
+    "id": "q11",
+    "question": "What is the preparation method for the alginate and BNL 102 suspension?",
+    "expected_locators": ["[0100]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "paraphrase"
+  },
+  {
+    "id": "q12",
+    "question": "What volume ratio is used in the alginate/BNL 102 preparation?",
+    "expected_locators": ["[0100]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q13",
+    "question": "What is the field of invention of patent WO2020053603A1?",
+    "expected_locators": ["[0001]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q14",
+    "question": "What commercial value of UK strawberry production is cited in the background?",
+    "expected_locators": ["[0004]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q15",
+    "question": "Which natural microorganism species have been commercialised for insect pest control?",
+    "expected_locators": ["[0006]", "[0007]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "paraphrase"
+  },
+  {
+    "id": "q16",
+    "question": "Which figure shows the effect of formulation on adult western flower thrips survival?",
+    "expected_locators": ["[0060]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q17",
+    "question": "What process is depicted in the schematic diagram of Figure 31?",
+    "expected_locators": ["[0180]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q18",
+    "question": "Are the spores described as substantially biologically pure in the patent?",
+    "expected_locators": ["[0015]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q19",
+    "question": "What agrochemically acceptable carrier is included in the third aspect of the invention?",
+    "expected_locators": ["[0016]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "paraphrase"
+  },
+  {
+    "id": "q20",
+    "question": "What are the key properties of strain BNL 102 that make it commercially attractive?",
+    "expected_locators": ["[0012]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "paraphrase"
+  },
+  {
+    "id": "q21",
+    "question": "What is the price of potatoes on the global commodity market?",
+    "expected_locators": [],
+    "expected_doc_id": null,
+    "category": "unanswerable"
+  },
+  {
+    "id": "q22",
+    "question": "What is the active pharmaceutical ingredient in Aspirin?",
+    "expected_locators": [],
+    "expected_doc_id": null,
+    "category": "unanswerable"
+  },
+  {
+    "id": "q23",
+    "question": "Did the alginate/BNL 102 formulation show germination after 24 hours at 0.95 aw?",
+    "expected_locators": ["[0120]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q24",
+    "question": "Which figure shows alginate/BNL 102/Cu formulation at 0.93 aw after 48 hours?",
+    "expected_locators": ["[0040]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "exact_lookup"
+  },
+  {
+    "id": "q25",
+    "question": "What is the fourth aspect of the invention described in WO2020053603A1?",
+    "expected_locators": ["[0024]"],
+    "expected_doc_id": "WO2020053603A1",
+    "category": "paraphrase"
+  }
+]

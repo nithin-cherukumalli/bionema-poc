@@ -1,0 +1,82 @@
+{
+  "project": "bionema-retrieval-poc",
+  "features": [
+    {
+      "id": "F01",
+      "title": "Ingestion pipeline: Docling parse + paragraph ID extraction",
+      "status": "done",
+      "verification": "python backend/ingest/parse_check.py --doc data/patent_raw.txt --expect-paragraphs 187",
+      "notes": "Verified Docling parsing for both source PDFs. Doc 1 preserves normalized [NNNN] locators; doc 2 preserves unique section/example locators with locator_type."
+    },
+    {
+      "id": "F02",
+      "title": "Chunking: Chonkie recursive chunker with clause-aware split rules",
+      "status": "todo",
+      "verification": "python backend/ingest/chunk_check.py --report backend/eval/chunk_report.md",
+      "notes": "Target 150-300 tokens per chunk, hard split on paragraph/table boundaries, metadata: paragraph_id, section, doc_id, doc_title."
+    },
+    {
+      "id": "F03",
+      "title": "Embedding + Qdrant upsert (dense + sparse hybrid collection)",
+      "status": "todo",
+      "verification": "python backend/ingest/upsert_check.py --collection bionema_poc_v1 --expect-min-points 40",
+      "notes": "voyage-3-large for dense; Qdrant native sparse or fastembed for BM25-style vectors."
+    },
+    {
+      "id": "F04",
+      "title": "Hybrid retrieval module: dense + sparse fusion + Voyage rerank",
+      "status": "todo",
+      "verification": "pytest backend/tests/test_retrieval.py",
+      "notes": "Top 20 fused -> rerank-2 -> top 5. Discard below rerank score threshold 0.3 (tune after eval)."
+    },
+    {
+      "id": "F05",
+      "title": "Citation-constrained synthesis via Kimi API",
+      "status": "todo",
+      "verification": "pytest backend/tests/test_synthesis.py",
+      "notes": "Every claim must carry [paragraph_id]. Explicit not-found path required and tested. Prompt lives in backend/synthesis/prompt.py. Uses Kimi via the OpenAI-compatible client."
+    },
+    {
+      "id": "F06",
+      "title": "Evaluation harness: qa_set.json + run_eval.py (Recall@5, MRR, groundedness)",
+      "status": "todo",
+      "verification": "python backend/eval/run_eval.py --report backend/eval/results.md",
+      "notes": "20-30 hand-labeled Q/A pairs. Target Recall@5 >= 0.85, groundedness >= 0.90."
+    },
+    {
+      "id": "F07a",
+      "title": "FastAPI app: /query, /health endpoints + CORS",
+      "status": "todo",
+      "verification": "uvicorn backend.main:app & curl -sf http://localhost:8000/health && pytest backend/tests/test_api.py",
+      "notes": "Wires retrieval + synthesis together. CORS must allow the deployed frontend origin."
+    },
+    {
+      "id": "F07b",
+      "title": "Frontend: query box, example chips, answer cards with citation panels",
+      "status": "done",
+      "verification": "cd frontend && npm run build && npm run lint",
+      "notes": "Confidence badge (High/Partial/Not found). Mobile-responsive. No login. Calls backend /query only."
+    },
+    {
+      "id": "F08",
+      "title": "Second document ingested (cross-document retrieval proof)",
+      "status": "todo",
+      "verification": "python backend/eval/run_eval.py --report backend/eval/results.md --cross-doc-check",
+      "notes": "Preempts 'only works on one PDF' skepticism. Public regulatory doc or second Bionema patent."
+    },
+    {
+      "id": "F09",
+      "title": "Deploy backend (Render/Fly.io) + frontend (Vercel) + smoke test",
+      "status": "todo",
+      "verification": "python scripts/smoke.py --backend-url <render-url> --frontend-url <vercel-url>",
+      "notes": "Backend cold start acceptable if /health responds within a few seconds; frontend load < 2s. All example questions must return correct cited answers on the live URLs."
+    },
+    {
+      "id": "F10",
+      "title": "README + eval summary for non-technical forwarding",
+      "status": "todo",
+      "verification": "manual review",
+      "notes": "Plain-language architecture explanation + eval results summary suitable for sending directly to prospect."
+    }
+  ]
+}

@@ -1,0 +1,1808 @@
+{
+  "cache_format_version": 3,
+  "doc_id": "WO2020053603A1",
+  "title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+  "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+  "locator_type": "explicit_bracketed",
+  "parsed_at": "2026-07-17T06:12:43.229190+00:00",
+  "page_range": null,
+  "docling_options": {
+    "ocr": true,
+    "table_structure": false,
+    "max_threads": 8
+  },
+  "raw_text_chars": 97907,
+  "units": [
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0001]",
+      "locator_type": "explicit_bracketed",
+      "section": "FIELD OF THE INVENTION",
+      "text": "The present invention relates to compositions, particles and uses thereof, methods for controlling pests and methods of producing compositions and particles for the control of insect pests. In particular, the invention relates to an insect-pathogenic (entomopathogenic) fungus, compositions and particles comprising insect-pathogenic fungus (or fungal spores – conidia), their uses on plant material, methods for controlling pests with insect-pathogenic fungus, and processes for producing particles and particles, for use in controlling pests, employing such organisms. ## Background to the Invention oo se o ou ss o oed oc [oks] Western flower thrip (WFT), Frankliniella occidentalis, black vine weevil, (BVW) Otiorhynchus sulcatus, whitefly, red spider mites, leaf miner, large pine weevil, caterpillars etc., are the largest cause of associated economic losses internationally. For example, in Europe the combined loss from virus transmission and direct feeding damage by WFT is estimated to be £550 million per year. Global WFT damage exceeds £6.0 billion per year and no individually effective control measures exist. BVW alone causes annual losses of £40 million to UK, and over £4.0 billion worldwide to the horticultural and agricultural industry."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0003]",
+      "locator_type": "explicit_bracketed",
+      "section": "BACKGROUND TO THE INVENTION",
+      "text": "Currently farmers, growers and greenkeepers use combinations of techniques to achieve adequate insect pest control. However, these are unreliable, inadequate and crop losses are considerable. The removal of chemical insecticides such as neonicotinoids and organophosphates from the EU market in 2016 has exacerbated the problem. Insect pests are adept at developing resistance to chemicals and the use of commercially available biocontrol predators against WFT and BVW is unreliable due to difficulties of timing and inefficient predation. The problem is having a major impact on agriculture in the UK, continental Europe and worldwide."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0004]",
+      "locator_type": "explicit_bracketed",
+      "section": "BACKGROUND TO THE INVENTION",
+      "text": "In the UK 36,000 tons of strawberries (=£325m in value, HDC report 2015) were successfully produced in 2015. However, when control of WFT was unsuccessful, total crop losses were seen in previous years. A more robust control program is thus essential to avoid up to £45 million losses per year. The value of the UK hardy nursery stocks industry is estimated at £796 million per year. Crop damage and crop rejections due to the presence of, for instance, BVW larvae can cause up to 100% losses if control measures are inadequate. 1 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0005]",
+      "locator_type": "explicit_bracketed",
+      "section": "BACKGROUND TO THE INVENTION",
+      "text": "Currently, there is increasing consumer-led demand for growers to reduce the use of chemical pesticides in crop production and to grow fruit and vegetables with reduced detectable residues. There is also a decline in conventional chemical pesticide effectiveness due to pesticide resistance and increased regulation contained in European Regulation (EC) 1107/2009."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0006]",
+      "locator_type": "explicit_bracketed",
+      "section": "BACKGROUND TO THE INVENTION",
+      "text": "Natural microorganisms, including insect-pathogenic fungi, Metarhizium, Beauveria and Isaria species, have been commercialised for the control a range of insect pests. However, their efficacy in the field is inconsistent due to variability observed between different strains of the microorganisms."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0007]",
+      "locator_type": "explicit_bracketed",
+      "section": "BACKGROUND TO THE INVENTION",
+      "text": "The insect-pathogenic fungus Metarhizium spp., Beauveria spp., Lecanicillium and Isaria fumosorosea, are a widespread, soil-borne pathogen. To date, a few strains of Metarhizium anisopliae var. anisopliae have been commercialized as a bioinsecticide for the control of various insect pests. Metahizium anisopliae can be mass produced using a diphasic production system where log-phase broth cultures are used to inoculate a relatively inexpensive solid-state fermentation (SSF), usually on rice or barley. However, different strains of the same insect-pathogenic fungus can have varying pathogenicity for a particular pest as well as respond differently to biotic and abiotic conditions. Therefore, the search for more aggressive strains of insect-pathogenic fungi continues."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0008]",
+      "locator_type": "explicit_bracketed",
+      "section": "BACKGROUND TO THE INVENTION",
+      "text": "It is therefore desirable to provide a natural pest control option comprising one or more desirable features such as a wide host range and consistent pathogenicity across a range of pests, high virulence, high spore yield in production and high stability in the field. ## Summary of the Invention"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0009]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "In accordance with a first aspect of the present invention, there is provided a strain of the insect-pathogenic fungus, Metarhizium var. anisopliae selected from:"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0010]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "- BNL 101 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506833; BNL 102 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506834; or a culture having the identifying characteristics thereof."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0011]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "The first aspect of the present invention relates to a new strain of insect killing fungus of the group, green muscardine, named Metarhizium anisopliae var. anisopliae selected from: BNL 101 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506833; or BNL 102 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506834. Compared with other known 2 WO 2020/053603 PCT/GB2019/052584 bioinsecticide products and strains, a granular biological produced with the present strain, BNL 102, are effective in achieving high rates of mortality in a wide variety of insect pests. The strain according to the first aspect may also achieve one or more of: high spore yield (2.5 times higher than existing bioinsecticide products - Met52); greater stability; longer-shelf life; and few to no off-target effects."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0012]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "The fungus Metarhizium anisopliae strain BNL 102 has a wide host range, high virulence and high spore yield, has high stability and can be produced on substrates such as rice or formulated within a nanoparticle, nanoshell or microencapsulation composition. Granular formulations of strain BNL 102 have proven efficacy against inter alia WFT, whitefly, aphids, weevils, caterpillars, pine weevil etc. The applicant's research on BNL 102 formulated within various nanoparticle, microencapsulation and/or water-soluble biopolymer compositions has shown high spore adherence in WFT, and increased efficacy, longevity, and delivery of fungal spores to the target."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0013]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "Preferably the strain is substantially biologically pure, which will be appreciated by the skilled reader as meaning that the strain is comprised mostly of Metarhizium anisopliae strain BNL 102 substantially without any biological contaminants, within a degree of error as is appreciably feasible using standard manufacturing practices and processes."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0014]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "In accordance with a second aspect of the present invention, spores are provided, obtainable from the insect-pathogenic fungus, Metarhizium var. anisopliae selected from: BNL 101 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506833; or BNL 102 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506834; or a culture having the identifying characteristics thereof."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0015]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "Preferably the spores comprise at least one selected from: conidia; blastospores. Preferably, the spores are substantially biologically pure. As discussed above, the term \"substantially biologically pure\" in the context of the present invention will be taken by the skilled person to mean a degree of purity that is practicable using currently available manufacturing practices and processes."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0016]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "In accordance with a third aspect of the present invention, there is provided a composition comprising, an insecticidally effective amount of insect-pathogenic fungus or spores obtainable therefrom; and an agronomically acceptable carrier thereof, the carrier comprising at least one selected from: bioplastic; biopolymer; polyacrylic acid; silica; zinc oxide; titanium dioxide; sodium selenosulfate; silver; hydrogel; carboxymethyl cellulose; methoxyl pectin; metal ions; chitosan; humectant; cellulose acetate; xantham gum; gum 3 WO 2020/053603 PCT/GB2019/052584 arabic; sodium alginate; chitosan; pectin citrus; arabinogalactan; alpha-cyclodextrin; maltodextrose; cellulose."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0017]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "Naturally, the skilled addressee will understand that, for the purposes of the present invention, insecticidally effective amount' refers to an amount which induces mortality, disrupts or impedes growth, interferes with metamorphosis or other morphogenic functions, effects sterilization, and/or interferes with reproduction of one or more target insects."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0018]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "Preferably the composition comprises one selected from: a powder; a liquid."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0019]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "In embodiments wherein, the composition comprises a powder, the powder can preferably be applied directly to crops and plants. In other embodiments, the powder can preferably be mixed with a liquid and preferably applied directly to soil or to crops as a solution, a dispersion, a suspension and/or a mixture. The composition can preferably be comprised within a spray which can preferably be a foliar spray. The composition of the present invention is preferably a contact bioinsecticide, and without wishing to be bound by theory, it is thought that subsequent control of an insect population is not solely dependent upon ingestion of the composition by insects within said population. It is thought that the composition is preferably arranged to attach to a host insect cuticle, preferably where it can penetrate the exoskeleton of the host insect and subsequently cause morbidity and/or mortality within the host insect, preferably without entering the wider environment."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0020]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "Preferably the composition comprises one selected from: nanoparticles; nanoshells; nanocapsules; microparticles; microshells; microcapsules."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0021]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "The informed addressee will appreciate that the term \"nanoparticles\" in the context of the present invention refers to particles between 1 and 100 nanometres (nm) in one dimension with a surrounding interfacial layer. Similarly, the informed reader will appreciate that \"nanoshells\" in the context of the present invention refers to a type of spherical nanoparticle consisting of a dielectric core which is covered by a thin metallic shell, and that \"nanocapsules\", refers to nanoscale (1 nm to 100 nm in one dimension) vesicular systems, often comprising a polymeric membrane which encapsulates an inner liquid core. The informed addressee will appreciate that the term \"microparticles\" in the context of the present invention refers to particles between 0.1 and 100 μm in size. The meaning of the terms \"microshells\"and \"microcapsules\" are inferable from the above descriptions of their \"nano\" equivalents."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0022]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "Preferably, the hydrogel comprises sodium alginate. Preferably at least a portion of the composition is soluble in a solvent. More preferably the solvent is water. Preferably the 4 WO 2020/053603 PCT/GB2019/052584 metal ions comprise at least one selected from: copper ions; iron ions. Preferably the humectant comprises glycerol. Preferably, the insect-pathogenic fungus comprises the strain of the first aspect of the present invention. Still more preferably, the spores comprise the spores of the second aspect of the present invention."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0023]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "The most preferable embodiment of the third aspect of the present invention comprises the strain of the first aspect, and/or the spores of the second aspect."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0024]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "In accordance with a fourth aspect of the present invention, there is provided a use of a composition comprising a strain of the insect-pathogenic fungus, Metarhizium var. anisopliae selected from: BNL 101 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506833; or BNL 102 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506834; or a culture having the identifying characteristics thereof, or spores obtainable therefrom in controlling a population of insects."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0025]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "Preferably the strain is in accordance with the first aspect of the present invention. Preferably the spores are in accordance with the second aspect of the present invention. Preferably the strain and/or spores are comprised within a composition in accordance with the third aspect of the present invention."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0026]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "In accordance with a fifth aspect of the present invention, there is provided a method of controlling a population of insects, the method comprising the step of applying an insecticidally effective amount of a strain of the insect-pathogenic fungus, Metarhizium var. anisopliae selected from: BNL 101 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506833; or BNL 102 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506834; or a culture having the identifying characteristics thereof, to a locus of said population of insects."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0027]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "Preferably the insecticidally effective amount of a strain of the insect-pathogenic fungus is comprised within a composition in accordance with the third aspect of the present invention."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0028]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "In accordance with a sixth aspect of the present invention, there is provided a method of controlling a population of insects, the method comprising the step of applying an Metarhizium var. anisopliae selected from: BNL 101 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506833; or BNL 102 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 5 WO 2020/053603 PCT/GB2019/052584 506834; or a culture having the identifying characteristics thereof, to a locus of said population of insects."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0029]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "Preferably the insecticidally effective amount of spores is comprised within a composition in accordance with the third aspect of the present invention."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0030]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "The skilled addressee will understand that, for the purposes of the present invention, 'a population of insects' may refer to a mixed-species, geographically discreet population of insects, or single-species, geographically discreet population of insects. The term controlling a population of insects' is used herein to mean that the number of insects within a population of insects is reduced, principally through mortality, at a level that is significantly greater than a population to which the method of the present invention is not performed."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0031]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "In the use of the fourth aspect, and the method of the fifth and sixth aspects of the present invention, the population of insects preferably comprises at least one selected from the range: WFT, weevils, aphids, whitefly, spider mites, caterpillars, chafers, ticks, midges and mosquitos."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0032]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "In the use of the fourth aspect, and the method of the fifth and sixth aspects of the present invention, the population of insects preferably comprises at least one selected from the range: WFTs (Frankliniella occidentalis); Spider mite (Tetranychus urticae); Whiteflies (Aleyrodidae spp); Aphids (Myzus persicae); Mosquitoes (Aedes aegypti; Anopheles stephensi; Culex quinquefasciatus); Ticks (Ixodes spp); Armyworms (Spodoptera littura); European May beetle (Melolontha melolontha); June beetle (Hoplia philanthus); Leatherjackets (Tipula paludosa); Wireworm (Agriotes spp); Biting midge (Culicoides spp); Vine weevil (Otiorhynchus sulcatus); Pine weevil (Hylobius abietis)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0033]",
+      "locator_type": "explicit_bracketed",
+      "section": "SUMMARY OF THE INVENTION",
+      "text": "Embodiments of the present invention will be appreciated comprising a strain which is a mixture of: BNL 101 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506833; and BNL 102 deposited in the CABI UK Centre, United Kingdom, on 1st May 2018 having ICI CC Number 506834, or a culture having the identifying characteristics thereof. ## Brief Description of the Figures"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0034]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "Specific embodiments will now be described by way of example only, and with reference to the accompanying drawings."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0035]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 1 shows efficacy of the BNL 102 unformulated fungus against WFT in semi-field conditions compared with currently marketed alternatives in the form of a 6 WO 2020/053603 PCT/GB2019/052584 commonly employed bioinsecticide (Naturalis®L); a commonly used small molecule insecticide (Tracer®); and beneficial insects (predatory)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0036]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 2 shows water activity (aw) of various nanoparticle compositions as a function of time."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0037]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 3A—FIG. 3H: FIG 3A shows germination of BNL 102 in the presence of a selection of nanoparticle compositions, after 48 hours incubation at 25°C, in Sabouraud Dextrose Agar (SDA) modified to 0.95 aw; M control; FIG.3B: bioplastic; FIG 3C: PAA; FIG. 3D: SiO₂; FIG. 3E: ZnO; FIG. 3F: TiO₂; FIG. 3G: NaSSS; FIG. 3H: Ag."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0038]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 4 shows photographs of alginate/Cu capsules comprising BNL 102."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0039]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 5A—FIG. 5D: FIG 5A: shows alginate samples with Fe(III); FIG. 5B: Fe(II); FIG. 5C: samples after 3 hours under lamp; and FIG. 5D: samples after 4 hours under natural light."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0040]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 6A—FIG 6I: FIG. 6A: shows alginate/BNL 102/Cu at 0.93 aw after 48 hours; FIG. 6B: after 72 hours; FIG. 6C: alginate/BNL 102/Cu/chitosan at 0.93 aw after 48 hours; FIG. 6D: after 72 hours; FIG. 6E: alginate/BNL 102/Cu at 0.95 aw after 48 hours; FIG. 6F: after 72 hours; FIG. 6G: alginate/BNL 102/Cu/chitosan at 0.95 aw after 48 hours; FIG. 6H: after 72 hours; and FIG 6I: alginate/BNL 102/Cu/chitosan in SDA after 48 hours."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0041]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 7A—FIG. 7E: FIG. 7A shows alginate/BNL 102/Fe(III) on 0.93 aw after 24 hours; FIG 7B: after 48 hours; FIG 7C: alginate/BNL 102/Fe(III) on 0.95 aw: FIG. 7D: after 48 hours; alginate/BNL 102/Fe(III) on SDA D: after 24 hours; and FIG. 7E: after 48 hours."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0042]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 8A—Fig. 8C: FIG. 8A shows alginate/BNL 102/Fe(III)/chitosan/glycerol at 0.93 aw after 24 hours; FIG. 8B: 0.95 aw after 24 hours; and FIG. 8C: SDA after 24 hours;"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0043]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 9A—FIG. 9D: FIG. 19A: alginate/BNL 102/Fe(II) at 0.93 at 24 hours; FIG. 19B: alginate/BNL 102/Fe(II) after 48 hours; FIG. 9C: alginate/BNL 102/Fe(II); FIG. 19D: SDA after 48 hours."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0044]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 10 shows germination of conidia at 25°C; 24 h (0.0995aw = 99.5% RH) on ½ Sabouraud Dextrose Agar."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0045]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 11 shows germ tube extension of germinating conidia at 25°C; 24 h (0.0995aw = 99.5% RH) on ½ Sabouraud Dextrose Agar."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0046]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 12 shows germination of blastospores at 25°C; 24 h (0.0995aw = 99.5% RH) on ½ Sabouraud Dextrose Agar."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0047]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 13 shows germ tube length of germinating blastopores at 25°C; 24 h (0.0995aw = 99.5% RH) on ½ Sabouraud Dextrose Agar. 7 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0048]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 14 shows conidial germination (%) after 48 h at 0.95aw = 95% RH) on ½ Sabouraud Dextrose Agar at 25°C."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0049]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 15 shows germ tube length of conidia at 25°C; 48 h (0.95aw = 95% RH) on ½ Sabouraud Dextrose Agar."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0050]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 16 shows germination of blastopores at 25°C; 48 h (0.95aw = 95% RH) on ½ Sabouraud Dextrose Agar. 0 d s s s a0 = 95% RH) on ½ Sabouraud Dextrose Agar."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0052]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 18, initial studies focused on formation of different conidial formulations which were made with different compatible compounds. Two examples which were then checked for germination after 4, 6 and 15 hrs at 25°C."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0053]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 19A—FIG. 19D: FIG. 19A: Germination, Compound 4 Gum Arabic-6h (1/2 SDA); FIG. 19B: Germination Arabinugalactan-6h (1/2 SDA); FIG. 19C: Germinator, Compound 10 Polyacrylic Sodium salt – 6 hr. (1/2 SDA); FIG. 19D: Germinator, Compound 11 maltodextrose-6h (1/2 SDA)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0054]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 20 shows microbeads: formulation gum arabic 1-5 hrs on ½ Sabouraud Dextrose Agar."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0055]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 21 shows microbeads: formulation maltodextrose 3 - 5 hrs - ½ Sabouraud Dextrose Agar."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0056]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 22 shows formulation maltodextrose 1 - 5 hrs 0.95 aw ½/2 Sabouraud Dextrose Agar, some initial germination only."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0057]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 23 shows formulation of blastospores (log 4 and log 6) in sodium alginate and gum arabic and PAA;"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0058]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 24 shows germination of formulated blastospores in gum arabic after 24 hrs on ½ Sabouraud Dextrose Agar;"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0059]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 25 shows production of different dry formulations using five different compatible compounds."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0060]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 26 shows effect of formulation on adult WFT survival. Mean cumulative proportional survival of adult WFT exposed for 3 days to dry conidia (106cfu/cmunformulated), gum arabic (104cfu/cm), (106cfu/cm), maltodextrin (104cfu/cm) and maltodextrin (106cfu/cm) of entomopathogenic fungi Metarhizium anisopliae BNL 102. Control treatment was not exposed to any fungus ('0' dose). Data represent survival of four replicates of approximately 400 adult males and females/replicates. 8 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0061]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 27A—FIG 27C: shows WFT after contact with different formulation containing Metarhizium anisopliae BNL 102. FIG. 27A: Healthy WFT; FIG. 27B: An adult WFT cadaver 5 days after death showing sporulation of M. anisopliae BNL 102; FIG. 27C: close-up picture of fungal spores produced on dead cadaver."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0062]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 28 shows effect of formulation on adult WFT survival. Mean cumulative proportional survival of adult WFT exposed for 3 days to dry conidia (106cfu/cmunformulated), Gum Arabic (104cfu/cm), (106cfu/cm), Maltodextrin (104cfu/cm) and Maltodextrin (106cfu/cm) of Metarhizium anisopliae BNL 102. Control treatment was not exposed to any fungus ('0' dose). Data represent survival of four replicates of approximately 400 adult males and females/replicates."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0063]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 29A—FIG. 29E: FIG. 29A: shows a bioassay procedure. Protocol used to contaminate adult WFT with conida and blastospores-formulation of entomopathogenic fungi, Metarhizium anisopliae strain BNL102. Experimental vessels were white opaque plastic containers (25 x 25cm; 15 cm in depth; surface area 625 cm₂) with a ventilation hole (10 x 10 cm) cut into the lids and covered with nylon gauze (64 mm pore size); FIG. 29B: A double layer of tissue paper (36.5 cm length; 25 cm width; surface area 917.5 cm₂) was placed in each container so that it covered the bottom and halfway up each side. This tissue paper was then moistened using a hand-held sprayer; FIG. 29C: Fresh beans and flowers were placed on the bottom before spraying of both formulation; FIG. 29D: Conidia and blastospore formulations were uniformly sprayed using a hand-held sprayer (pore size 300 μm); FIG. 29E: Approximately 400 adult male and female WFT were released into the containers and WFT survival monitored daily for 3 days."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0064]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 30 shows a preferred method of preparing a microencapsulation composition in accordance with a third aspect of the present invention: A mixture of calcium chloride and entomopathogenic fungus, Metarhizium anisopliae strains BNL101 and BNL102."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0065]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 31 shows the schematic diagram of the emulsification-gelation process. Addition of a fungal spores-containing sodium alginate aqueous solution. W/O emulsification to the desired μ-scaled size; ω = 500 - 600 rpm. Emulsification of Internal Phase droplets containing the viable fungal spores. CaCl2 powder to dispense slowly dissociation reaction CaCl₂ (aq) Ca²+ +2Cl⁻. on-exchange mechanism initiation/progression: SA (C₆H7NaO₆)n to [Ca(C₆H7O₆)2]n Microcapsules collection at the bottom of the tank. 9 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0066]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 32 -Microcapsules formation. The 1.5%, 2%, 3% and 4 % sodium alginate solution were tested and 2% and 1.5% have been selected for further study."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0067]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG.33 - Examples of spores-containing alginate-base microcapsules: a) light microscopy, b) as observed under the light microscope of the micromanipulation rig, c) scanning electron microscopy. Bars at a) and b) are 100 μm."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0068]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 34A – FIG 34B. The diagram of the microcapsules size distribution of the samples prepared at stirring speed of 700 rpm (SAFS002 2%SA, FIG. 34A) and 430 rpm (2% SA+PE+HPMC 2:1:1, FIG. 34B) [6900] FIG. 35 - An alginate capsule on the SDA surface showing intense mycelial growth."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0070]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG 36 - An agglomeration of alginate microcapsules with spores after rehydration. Bar 100 μm."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0071]",
+      "locator_type": "explicit_bracketed",
+      "section": "BRIEF DESCRIPTION OF THE FIGURES",
+      "text": "FIG. 37A - 37C - Measuring mechanical strength of microcapsules at the micromanipulation rig in a dry mode (37A) and in a wet mode (37B); a capsule with spores. inside under the glass probe in water (37C). ## Detailed Description"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0072]",
+      "locator_type": "explicit_bracketed",
+      "section": "DETAILED DESCRIPTION",
+      "text": "Referring to FIG. 1, the data demonstrates an up to 90% mortality rate when the BNL 102 was used against WFT (insect), and additional trials conducted have demonstrated up to 100% efficacy against a wide range of insect species including WFT, aphids, army worms, vine weevil and pine weevil (which showed between 80-100% efficacy in greenhouse trials). The data showed that BNL 102, without a nanoparticle composition, was two times and three times more effective in controlling a population of WFT over other products that do not include BNL 102. These other products do not include BNL 102."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0073]",
+      "locator_type": "explicit_bracketed",
+      "section": "DETAILED DESCRIPTION",
+      "text": "As shown in FIG. 1, the data shows that BNL 102 provided 100% control of WFT compared to results from other products that do not include BNL 102. Results using these other products demonstrated the following results: a 50% for beneficial insects, 20% for insecticides and 20% for bioinsecticides. As a significantly more effective component in a pest management program, BNL102 containing and/or based products will provide many advantages, including to assist the grower community to comply with EU Integrated Pest Management regulations, reduce the use of chemical pesticides, improve crop yield and/or increase the users'profits. 10 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0074]",
+      "locator_type": "explicit_bracketed",
+      "section": "DETAILED DESCRIPTION",
+      "text": "The strain of insect-pathogenic fungus of the first aspect of the present invention, and the associated spores in accordance with the second aspect of the present invention, are shown to provide an improvement in pest control by a factor of 2 to 4 times over currently available solutions as can be seen in FIG. 1. A major problem with chemical insecticides involves development of resistance to active compounds. Since the present invention does not comprise a small molecule pesticide having an active compound to which a pest can develop a resistance, the present solution may overcome a significant limitation of current chemical insecticides. The present invention may provide a significant increase in crop yields while preferably remaining a relatively cheap alternative to chemical insecticides when considering efficacy (see Table 1), and therefore potentially minimizing economic burden upon crop producers. Table 1. Cost comparison of treating WFT with Metarhizium anisoplae BNL102 and other biological and insecticides products. | Predators/ BNL102 Met52®OD Naturalis®L Chemicals Parasitoids Approximate 1,200 1,200 1,160 700 700 cost (£) Efficacy (%) 90-100 40 20 40-50 20 | |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0075]",
+      "locator_type": "explicit_bracketed",
+      "section": "DETAILED DESCRIPTION",
+      "text": "As can be seen in Table 2 below, the first and second aspects of the present invention display a wide host range, and thus provide for a potential reduction in the food waste, which might be caused by direct damage attributed to a wide range of insect pests. Table 2. Pathogenicity of Metarhizium anisoplae BNL 102 against multiple pests in laboratory conditions. | Insect Species Scientific Name Mortality (%) Western flower thrip Frankliniella occidentalis 100 Spider mite Tetranychus urticae 60-70 Whitefly Aleyrodidae 60-75 Aphid Myzus persicae 90-100 Mosquito Aedes aegypti 100 Mosquito Anopheles stephensi 100 Mosquito Culex quinquefasciatus 100 Tick Ixodes spp 90-100 Armyworm Spodoptera littura 100 European May beetle Melolontha melolontha 40-50 June beetle Hoplia philanthus 30-50 Leatherjacket Tipula paludosa 30-50 Wireworm Agriotes spp 30-50 Biting midge Culicoides spp 100 Vine weevil Otiorhynchus sulcatus 100 Pine weevil Hylobius abietis 100 | |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 11 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0076]",
+      "locator_type": "explicit_bracketed",
+      "section": "DETAILED DESCRIPTION",
+      "text": "The present invention may provide easy compliance with EU legislation when used within an Integrated Pest Management programme, is preferably non-toxic to workers and/or users and/or consumers and/or safe on the environment, may be residue free, and may be suitable for traditional and/or organic farming. The present invention is preferably compatible with other bio-pesticides, bio-fungicides, and/or pesticides, for integration into a larger, or already establish Integrated Pest Management program. The present invention may also be easy to use in different cropping systems."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0077]",
+      "locator_type": "explicit_bracketed",
+      "section": "DETAILED DESCRIPTION",
+      "text": "Semi-field trials have demonstrated up to 90-100% mortality rate against WFT (FIG. 1) and additional studies conducted against other pests are mentioned in Table 2. This data suggested that M. anisoplae BNL 102 is a wide host range technology and may be used against many pests and may therefore be a potential candidate for commercialisation. M. anisoplae BNL 102 without a nanoformulation/composition is 2 times, 3 times, or more than 2-3 times more effective in controlling the WFT over known products in the market. For example, BNL 102 provided 100% control of WFT compared to other products, these other products providing 52% for beneficial insects, 20% for insecticides (Tracer) and 20% for bioinsecticide (Naturalis-L). M. anisoplae BNL 102 encapsulated formulation will have significant impact under field condition when environmental conditions are different from lab or semi-field. As a significantly more effective component in Integrated Pest Management (IPM) programmes, M. anisoplae BNL 102 based products may help the African growers comply with EU IPM regulations, reduce use of chemical pesticides, improve crop yield and/or potentially increase users' profits."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0078]",
+      "locator_type": "explicit_bracketed",
+      "section": "DETAILED DESCRIPTION",
+      "text": "The following Examples 1 to 5 were carried out as part of a single study and congruent techniques, protocols and materials were used throughout unless otherwise stated. ## Example 1 ## Culture media preparation"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0079]",
+      "locator_type": "explicit_bracketed",
+      "section": "CULTURE MEDIA PREPARATION",
+      "text": "Sabouraud Dextrose Agar (SDA) culture media was prepared in distilled water following a standard procedure. The media was autoclaved at 121oC for 15 minutes, then cooled to 50oC before plating in petri dishes for further use. Aseptic technique was followed. The petri dishes were stored at 4oC until needed in further work."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0080]",
+      "locator_type": "explicit_bracketed",
+      "section": "CULTURE MEDIA PREPARATION",
+      "text": "SDA 0.93 (93% equilibrium relative humidity (ERH)) / SDA 0.95 ((95% equilibrium relative humidity (ERH)): 92 g / 75 g glycerol was added to 250 mL / 300 mL distilled water. 19.5 g SDA powder was then added to the glycerol solutions and the mixtures 12 WO 2020/053603 PCT/GB2019/052584 were manually shaken. Media was then autoclaved at 121oC for 15 minutes and cooled to 50oC before plating in petri dishes, using aseptic technique, and stored at 4°C."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0081]",
+      "locator_type": "explicit_bracketed",
+      "section": "CULTURE MEDIA PREPARATION",
+      "text": "Conidia of M. anisopliae strain BNL 102 were grown on the SDA culture media using standard protocol. Preparation of 1 wt% nanoparticle compositions (dispersions) and BNL 102 suspension"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0082]",
+      "locator_type": "explicit_bracketed",
+      "section": "PREPARATION OF 1 WT% NANOPARTICLE COMPOSITIONS (DISPERSIONS) AND BNL 102 SUSPENSION",
+      "text": "1 wt% nanoparticle dispersions were prepared in tween/distilled water for the following seven types of nanoparticles: bioplastic, PAA, Si, ZnO, TiO₂, NaSSS and Ag. Dispersions were shaken prior to application to ensure even distribution."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0083]",
+      "locator_type": "explicit_bracketed",
+      "section": "PREPARATION OF 1 WT% NANOPARTICLE COMPOSITIONS (DISPERSIONS) AND BNL 102 SUSPENSION",
+      "text": "A M. anisoplae BNL 102 suspension was prepared by taking spores from the petri dish in tween/water, and vortexed for 2 minutes. Fungal spores were counted using a haemocytometer. A suspension was prepared having 2 x 10⁶ spores/mL, the suspension being prepared from a stock BNL 102 suspension."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0084]",
+      "locator_type": "explicit_bracketed",
+      "section": "PREPARATION OF 1 WT% NANOPARTICLE COMPOSITIONS (DISPERSIONS) AND BNL 102 SUSPENSION",
+      "text": "Water activity measurement of the prepared 1 wt% nanoparticle dispersions"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0085]",
+      "locator_type": "explicit_bracketed",
+      "section": "PREPARATION OF 1 WT% NANOPARTICLE COMPOSITIONS (DISPERSIONS) AND BNL 102 SUSPENSION",
+      "text": "Water activity (aw) of each of these samples as a function of time was measured after 1 hour, 3 hours and 6 hours. Aqua Lab Dew Point 4TE water activity measurement instrument was used."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0086]",
+      "locator_type": "explicit_bracketed",
+      "section": "PREPARATION OF 1 WT% NANOPARTICLE COMPOSITIONS (DISPERSIONS) AND BNL 102 SUSPENSION",
+      "text": "The results for water activity (aw) as a function of time for various types of nanoparticle dispersions is presented in Table 1 and FIG. 2. As can be seen, a mild water activity change is observed for Na SSS and PAA. The samples did not show a significant change in water activity over time, suggesting stability of the M. anisoplae BNL 102 spore preparation on each of the nanoparticle compositions. Table 3. Water activity of a selection of nanoparticle compositions after 1, 3 and 6 hours. | Time Bioplastic PAA SiO2 ZnO TiO2 Na SSS Ag (hours) 1 0.997 0.9952 0.9945 0.9968 1.0119 0.9916 1.0176 3 0.9955 1.0088 0.996 0.9961 1.0024 0.9841 1.0072 6 0.9917 0.9892 0.9991 0.9963 0.9984 0.9694 0.9945 | |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ## Example 2- Compatibility of nanoparticles with the BNL 102 spores"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0087]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 2- COMPATIBILITY OF NANOPARTICLES WITH THE BNL 102 SPORES",
+      "text": "0.5 % chitosan was prepared, and 1 mL was added to 9 mL of each of the nanoparticle dispersions prepared as described in Example 1."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0088]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 2- COMPATIBILITY OF NANOPARTICLES WITH THE BNL 102 SPORES",
+      "text": "0.2 mL of each chitosan/nanoparticle dispersion and 0.2 mL of BNL 102 suspension prepared (2 x 106 spores/mL) were plated in a petri dish with 0.93 and 0.95 SDA media prepared as described in Example 1. Duplicates of each of the seven chitosan/nanoparticle dispersions were made for each of 93% and 95% ERH SDA media. 13 WO 2020/053603 PCT/GB2019/052584 Control petri dishes were also prepared by adding 0.4 mL of BNL 102 suspension to plates comprising each of 0.93 and 0.95 SDA media. The plates were incubated for at least 24 hours at 25°C. Altogether, 32 plates were incubated; 16 for 93% and 16 for 95% ERH SDA media. Aseptic technique was used."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0089]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 2- COMPATIBILITY OF NANOPARTICLES WITH THE BNL 102 SPORES",
+      "text": "The germination of the fungal spores was observed using an optical microscope to check the compatibility of nanoparticles on the spores. An Olympus Bx40 optical microscope with attached Infinity3 Lumenera camera and INFINITY ANALYZE software was employed to capture images of the spores. Preparation of stock solutions needed for composition It %en (, %e [e] referred to as \"Cu\"), 1 wt% FeCl3, 1 wt% FeCl2, 0.5 wt% chitosan, 0.5 wt% glycerol and M. anisoplae BNL 102 suspension (concentration not known, random amount taken, until water appeared to have greenish tinge) were all prepared in tween/distilled water in separate vials. The solutions were vortexed or manually shaken to get clear solution of the samples."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0091]",
+      "locator_type": "explicit_bracketed",
+      "section": "PREPARATION OF STOCK SOLUTIONS NEEDED FOR COMPOSITION",
+      "text": "FIG. 3 shows the images captured to indicate the germination of spores in presence of nanoparticles, after 48 hours at 0.95 water activity. As observed, most of the nanoparticles show good compatibility with the BNL 102 spores and do not inhibit germination. ## Example 3-Preparation of Alginate/Cu/BNL 102/chitosan capsules"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0092]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 3-PREPARATION OF ALGINATE/CU/BNL 102/CHITOSAN CAPSULES",
+      "text": "Alginate/Cu capsules: sodium alginate was added dropwise to the 1 wt% CuSO4 solution in 1:1 ratio, and shaken. Light blue capsules were formed."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0093]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 3-PREPARATION OF ALGINATE/CU/BNL 102/CHITOSAN CAPSULES",
+      "text": "Alginate/Cu/chitosan capsules: The Alginate/Cu capsules were mixed with equal volume of the 0.5 wt% chitosan solution to coat with chitosan."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0094]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 3-PREPARATION OF ALGINATE/CU/BNL 102/CHITOSAN CAPSULES",
+      "text": "Alginate/Cu/BNL 102 capsules: First Alginate/BNL 102 suspension was prepared by adding alginate to BNL 102 suspension in 1:4 volume ratio. The mixture was shaken manually. Then alginate/BNL 102 was added to the solution of CuSO4 in 1:1 ratio and mixed."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0095]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 3-PREPARATION OF ALGINATE/CU/BNL 102/CHITOSAN CAPSULES",
+      "text": "Alginate/Cu/BNL 102 chitosan capsules: The capsules prepared above were mixed with equal amount of the 0.5 wt% chitosan solution to coat with chitosan. Effect of alginate/Cu and alginate/Cu/chitosan on germination of BNL 102 spores"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0096]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 3-PREPARATION OF ALGINATE/CU/BNL 102/CHITOSAN CAPSULES",
+      "text": "Two types of capsules, i.e. alginate/BNL 102/Cu and alginate/BNL 102/Cu/chitosan, were plated on separate petri dishes containing SDA, 0.93 and 0.95. Five capsules were put on the media in the plate at five different spots. Two plates for each type of 14 WO 2020/053603 PCT/GB2019/052584 media were prepared. Aseptic technique was followed during this work. The plates were incubated at 25°C for at least 24 hours. The germination was checked after 24, 48 and up to 72 hours after plating."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0097]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 3-PREPARATION OF ALGINATE/CU/BNL 102/CHITOSAN CAPSULES",
+      "text": "The visual appearance of alginate samples encapsulating Cu, BNL 102/Cu and those coated with chitosan is shown in FIG. 4. Alginate/Cu capsules are light blue in color. ## Example 4- Preparation of alginate/Fe(II) and alginate/Fe(III) samples (Fe capsules)"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0098]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 4- PREPARATION OF ALGINATE/FE(II) AND ALGINATE/FE(III) SAMPLES (FE CAPSULES)",
+      "text": "15 1:1 volume ratio of sodium alginate and FeCl3 (Fe(II)) or FeCl2 (Fe(III)) was used. The procedure followed was similar to that for Cu in Example 3. In the case of Fe(II) and Fe(III), the container FeCl3 or FeCl2 solution was covered with foil to minimize the effect of light on the FeCl3 and FeCl2. T s es s s e [tn] samples in containers (open) under both a lamp and natural light for up to 4 hours. ## Preparation of alginate/BNL 102/Fe(III) and alginate/BNL 102/Fe(II)"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0100]",
+      "locator_type": "explicit_bracketed",
+      "section": "PREPARATION OF ALGINATE/BNL 102/FE(III) AND ALGINATE/BNL 102/FE(II)",
+      "text": "Firstly, alginate/BNL 102 suspension was prepared by following the procedure as described in Example 3. 1:4 volume ratio of BNL M. anisoplae 102: alginate was used, and alginate was added to the BNL 102 suspension. The pH of the solution was adjusted to 7, by addition of small amount of 0.1 M NaOH."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0101]",
+      "locator_type": "explicit_bracketed",
+      "section": "PREPARATION OF ALGINATE/BNL 102/FE(III) AND ALGINATE/BNL 102/FE(II)",
+      "text": "Alginate/BNL 102/Fe(III) or Fe(II) samples were prepared following the method described above. Alginate/BNL 102 was added dropwise using a needle syringe to the Fe(III) or Fe(II) solutions taken in two different containers, which were each covered with aluminum foil. ## Effect of alginate/BNL 102/Fe(III) and alginate/BNL 102/Fe(II) on germination of BNL 102 spores"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0102]",
+      "locator_type": "explicit_bracketed",
+      "section": "EFFECT OF ALGINATE/BNL 102/FE(III) AND ALGINATE/BNL 102/FE(II) ON GERMINATION OF BNL 102 SPORES",
+      "text": "Two samples, i.e. alginate/BNL 102/Fe(III) and alginate/BNL 102/Fe(II), were plated on separate petri dishes containing SDA, 0.93 and 0.95. Five capsules/drops were placed onto the media in the plate at five different spots. Two plates for each type of media were prepared. Aseptic technique was used throughout. The plates were incubated at 25°C for at least 24 hours. The germination was checked after 24, 48 and up to 72 hours after plating."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0103]",
+      "locator_type": "explicit_bracketed",
+      "section": "EFFECT OF ALGINATE/BNL 102/FE(III) AND ALGINATE/BNL 102/FE(II) ON GERMINATION OF BNL 102 SPORES",
+      "text": "FeCl3 formed brownish capsules whereas FeCl2 formed viscous white liquid when mixed with alginate (FIG. 5 A; and FIG. 5 B). The capsules and the viscous liquid lost water and some change in colour was also observed (FIG. 5 C; and FIG. 5 D), e.g. brown the capsules of alginate/Fe(III) turned darker and shrank in size. The white viscous liquid became 15 WO 2020/053603 PCT/GB2019/052584 more solid. Moreover, the water activity of alginate/BNL 102/Fe(III)/chitosan/glycerol showed a significant decrease in water activity value from 0.9984 to 0.2748 within 4 hours. ## Example 5 - Preparation of alginate/BNL 102/Fe(III)/chitosan/glycerol"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0104]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 5 - PREPARATION OF ALGINATE/BNL 102/FE(III)/CHITOSAN/GLYCEROL",
+      "text": "First 1:1 chitosan: glycerol mixture was prepared. Then the alginate/BNL 102/Fe(III) capsules prepared as previously described in Example 4, and were coated using chitosan/glycerol using 1:1 weight ratio of alginate/BNL 102/Fe(III) : chitosan/glycerol. Water activity and germination effect of alginate/BNL 102/Fe (III)/chitosan/glycerol"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0105]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 5 - PREPARATION OF ALGINATE/BNL 102/FE(III)/CHITOSAN/GLYCEROL",
+      "text": "Both the water activity was measured and germination was studied, as a function of time. FIG. 6 to FIG. 9 show optical microscope images for alginate/BNL 102 formulations with Cu, Fe(III) and Fe(II) ions with and without coating of chitosan or chitosan/glycerol. As can be seen, the alginate, metal ions, chitosan or glycerol do not have any inhibitory effect on germination of fungi spores."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0106]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 5 - PREPARATION OF ALGINATE/BNL 102/FE(III)/CHITOSAN/GLYCEROL",
+      "text": "The nanoparticle compositions made using alginate (a hydrogel) showed desirable properties which would be expected to enhance adhesion of fungal spores on plants and insect pests, for example, when used in spray applications. The presently presented example embodiments of compositions of nanoparticle compositions according to the third aspect of the present invention have been demonstrated with a strain of insect-pathogenic fungus according to the first aspect of the present invention, and spores therefrom according to the second aspect of the present invention, newly identified as having favorable host-range, virulence and efficacy characteristics over currently available alternatives. The combination of the fungus or spores according to the first and second aspects, along with the composition according to the third aspect, could in turn provide an improved efficacy over currently available alternatives. Moreover, the addition of metal ions such as copper and iron has been shown herein to have no negative effect and does not inhibit spore germination. The efficacy of the composition can further be improved by chitosan coating and the humidity of the composition could be controlled by addition of humectants such as glycerol."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0107]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 5 - PREPARATION OF ALGINATE/BNL 102/FE(III)/CHITOSAN/GLYCEROL",
+      "text": "Microencapsulation of fungal spores may also be used to form an additional example embodiment of a composition of the third aspect of the present invention. Insectpathogenic fungal spores harvested from solid-state fermentation would preferably be stored at 40C."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0108]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 5 - PREPARATION OF ALGINATE/BNL 102/FE(III)/CHITOSAN/GLYCEROL",
+      "text": "Water-soluble biopolymers would preferably be dissolved in water to form an aqueous solution. The candidates of such biopolymers, might include, for example, a mixture of carboxymethyl cellulose (CMC) and sodium alginate (SA) or low methoxyl pectin. 16 W0 2020/053603 PCT/GB2019/052584 Additional examples of candidates for biopolymers would be appreciated by the skilled reader. The fungal spores are preferably added to the solution to form a suspension. The aqueous suspension would then be dispersed in an oil phase (in, for example, vegetable oil) to form a water/oil emulsion. Additional examples of oils suitable for producing a water/oil emulsion will be appreciated. The emulsion is ideally produced in a stirred tank with a Rushton turbine of standard configuration. Other methods of producing an emulsion will be apparent. The maximum droplet size of the aqueous phase, with fungal spores, will ideally be controlled to be less than 100 microns by varying agitation speed of the impeller of the Rushton turbine. In the presently described example, calcium chloride (CaCl2) powders would then be added into the oil phase, and the mixing of the emulsion would be maintained. When CaCl2 powders come into contact with the aqueous phase, Ca2+ will be released at the water/oil interface to exchange with sodium ions (Na+) in the aqueous solution, to form a solid shell of calcium alginate when sodium alginate is present, or to result in gelation from specific non- covalent ionic interactions between blocks of galacturonic acid residues of the pectin backbone with Ca2+. In each case, the fungal spores mixed with carboxymethyl cellulose can be encapsulated. The formed microcapsules will be centrifuged from the oil, and air or freeze dried for maintaining long-term storage stability. The water activity of the dried microcapsules should ideally be maintained at 0.1 - 0.3."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0109]",
+      "locator_type": "explicit_bracketed",
+      "section": "W0 2020/053603",
+      "text": "Relating to an example method of use of the above-described example composition, the resulting microcapsules would be used to form a foliar spray. Before the microcapsules are sprayed onto plants and crops, they will be dispersed in water with a biosurfactant of high hydrophile-lipophile balance (HLB) value such as rhamnolipids, sophorolipids or saphorose lipid from microbial origin. The dry hydrogel microcapsules should have super water-absorbing capability and swell to a significant extent after being exposed to water. The biosurfactant can significantly reduce the interfacial tension of the aqueous suspension. After the microcapsules in water are sprayed to the surface of plants, the biosurfactant should reduce the droplet size formed, and help the aqueous suspension to spread well on the surface to enhance the retention of the microcapsules. Moreover, the water absorbed in the microcapsules should be maintained for up to 5 hours, which allows the fungal spores to germinate. The mechanical strength of the microcapsules should be tuned to allow the microcapsules to rupture after 5 hours due to hydration and swelling or ruptured by insects when they move on the microcapsules, which permits direct contact between the insects and the fungal spores to realize the functionalities of the insecticide. 17 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0110]",
+      "locator_type": "explicit_bracketed",
+      "section": "W0 2020/053603",
+      "text": "The following Examples 6 to 9 were carried out as part of a second study and congruent techniques, protocols and materials were used throughout unless otherwise stated. ## Example 6 - Inoculum production"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0111]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 6 - INOCULUM PRODUCTION",
+      "text": "M. anisoplae BNL 102 conidia were obtained from culture of the strains grown on Saubaroud Dextrose Agar (SDA) at 25°C for 10 days."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0112]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 6 - INOCULUM PRODUCTION",
+      "text": "For blastopore production we used the equivalent of 10 g peptone and 40 g glucose broth medium. This was either as 50 mL aliquots in 250 mL baffled flasks or 100 125 mL in 500 mL baffled flasks on an orbital shaker at 125 rpm and incubated for 72 h. Before use, conidia were placed in a 25 mL Universal glass bottle containing 10 mL of sterile water and 0.01% between 80 using a sterile loop from the above cultures and shaken vigorously. For liquid broth cultures 25 mL of medium was filtered through sterile glass wool to remove mycelium and fragments to produce a broth containing only blastospores."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0113]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 6 - INOCULUM PRODUCTION",
+      "text": "The concentrations of the conidia and blastospores were checked using a haemocytometer and diluted where necessary to obtain 1 x 10⁴ and 10⁶ cfu/mL. Compatibility of Metarhizium anisopliae BNL 102 conidia and blastospores 1. CMC (Insoluble) 2. Cellulose acetate (insoluble mixture) 3. Xantham Gum (Insoluble) 4. Gum Arabic (soluble) 5. Na Alginate (Insoluble) 6. Chitosan (soluble/Gel) 7. Pectin Citrus (Insoluble) 8. (+) Arabinogalactan (soluble) 9. Alpha-Cyclodextrin (soluble) 10. Poly (acrylic acid sodium salt) (soluble) 11. Maltodextrose (soluble) 12. Cellulose (insoluble mixture)"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0114]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 6 - INOCULUM PRODUCTION",
+      "text": "In all cases a 12.5% mixture was made of all the compounds in sterile water and tween 80. This was then diluted to make up 1.25% of each compound. This was used for the compatibility assays. Seven compounds were soluble in the sterile water. The others formed very stiff gels which made them difficult to work with and were thus not included in the assays. ## Germination assay"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0115]",
+      "locator_type": "explicit_bracketed",
+      "section": "GERMINATION ASSAY",
+      "text": "A 0.1 mL aliquot of either conidial or blastospore suspension was added to the treatments. These were shaken and left for 60 mins. Then, 0.2 mL aliquots were spread onto 2 replicate plates of ½ strength SDA (0.995 aw = 99.5% ERH) and onto 2 replicate plates of ½ 18 WO 2020/053603 PCT/GB2019/052584 strength SDA modified to 0.95 aw (=95% ERH) with glycerol. The spore suspensions and compounds were spread using a sterile stainless-steel spreader. The different water activity (aw) treatments (SDA plates) were stored in polyethylene bags which were sealed to ensure that the conditions were maintained and incubated at 25°C for up to 48 h. The treatments and replicates were checked after 24 and 48 h."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0116]",
+      "locator_type": "explicit_bracketed",
+      "section": "GERMINATION ASSAY",
+      "text": "To check germination, a 1 cm stainless steel cork borer was used to cut at random discs from the replicate SDA plates. Two from each replicate were taken at random placed on a glass slide, stained with lactophenol/cotton blue to arrest the germination and growth. Glass coverslips were then placed over the discs for microscopic examination. Photographs were made of the different treatments in random fields and stored on the lab PC. The percentage germination was evaluated. Where all conidia/blastospores had germinated the germ tube lengths were measured of up to 20 - 25 propagules at random. The means and S.E. (standard error) for the different treatments were calculated and plotted."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0117]",
+      "locator_type": "explicit_bracketed",
+      "section": "GERMINATION ASSAY",
+      "text": "FIG. 10 shows that conidial treatments were completely compatible with all the compounds tested with germination in all cases after 24 h with freely available water. However, there were differences in germ tube lengths (FIG. 10)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0118]",
+      "locator_type": "explicit_bracketed",
+      "section": "GERMINATION ASSAY",
+      "text": "In the untreated control germ tube length was very long and not measureable. With the different compounds the germ tube lengths were significantly shorter and there were some differences between treatments."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0119]",
+      "locator_type": "explicit_bracketed",
+      "section": "GERMINATION ASSAY",
+      "text": "Some such as cellulose acetate, cyclodextrin, maltodextrin and cellulose appear to be more compatible (FIG. 11)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0120]",
+      "locator_type": "explicit_bracketed",
+      "section": "GERMINATION ASSAY",
+      "text": "After 24 h, no treatments, either conidial or blastospores, had germinated at 0.95 aw (=95% ERH). Thus, germination and germ tube extension were examined quantified after 48 h."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0121]",
+      "locator_type": "explicit_bracketed",
+      "section": "GERMINATION ASSAY",
+      "text": "FIGs 14 and 15 show the effect of treatments on germination and germ tube extension respectively at 0.95 aw and 25°C. This showed that the control and four treatments had 100% germination compared with others (76-82%). The others showed less germination. However, the germ tube lengths were much shorter in the treatments than the controls (FIG. 15). There did not appear to be much difference between the compounds based on germ tube extension under water stress with all treatments inhibiting germ tube extension when compared to the controls."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0122]",
+      "locator_type": "explicit_bracketed",
+      "section": "GERMINATION ASSAY",
+      "text": "For comparison, similar experiments were carried out with blastospores from liquid broth culture. 19 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0123]",
+      "locator_type": "explicit_bracketed",
+      "section": "GERMINATION ASSAY",
+      "text": "FIGs 16 and 17 show the effects of different compounds on germination and germ tube extension of the blastospores. This shows that mixtures of all compounds with blastospores resulted in 100% germination. However, the germ tube length from the blastospores were again variable with some compounds resulting in better germ tube extension when compared to the controls at 0.95 aw and 25°C after 48 h. In this case cellulose acetate, chitosan, alpha galactan, and cellulose appeared to be particularly good when compared to other compounds. ## Example 7"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0124]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 7",
+      "text": "Using techniques from Example 6:"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0125]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 7",
+      "text": "Formulation of the best compatible compounds with conidia and blastospores of BNL 102."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0126]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 7",
+      "text": "Gel bead assays: The production of immobilised conidia of BNL 102 was examined by using different needle sizes for extrusion of the sodium alginate and compatible compound (1.25%) and conidial (log 6 spores/mL) mixtures. The solution was passed through a syringe and droplets formed gels in a 3% calcium chloride solution. By varying the needle size, it was possible to produce bead sizes of about 0.5 mm to 0.2-0.25 mm diameter. These were plated directly onto ½ strength SDA and ½ SDA/0.95 aw for examination of the viability after 3, 6 and 24 h. Sterile discs (6 mm dia.) were cut from the agar surface, stained, covered with a glass coverslip and examined under the microscope with a photo image capture software system to record germination."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0127]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 7",
+      "text": "Micro-scale gel bead production: It was decided that much smaller bead sizes were necessary for spraying – in the range 100 - 200 μm in diameter. It was thus decided to make specific mixtures of conidia or blastospores at two inoculum levels (log 4 and 6 spores/mL) for two compatible treatments of each. These were prepared as liquid suspensions. These are being used for bioassays. The compatible compounds and concentrations of the M. anisoplae BNL 102 propagules chosen were:"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0128]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 7",
+      "text": "Conidial formulations: 1. Gum Arabic (106 cfu/mL) 2. Gum Arabic (104 cfu/mL) 3. Maltodextrin (106 cfu/mL) 4. Maltodextrin (104 cfu/mL)"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0129]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 7",
+      "text": "Blastospore formulations 1. Gum Arabic (106 cfu/mL) 2. Gum Arabic (104 cfu/mL) 3. PAA (106 cfu/mL) 20 WO 2020/053603 ## 4. PAA (104 cfu/mL)"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0130]",
+      "locator_type": "explicit_bracketed",
+      "section": "4. PAA (104 CFU/ML)",
+      "text": "Production and viability of formulated gels of conidia and blastospores"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0131]",
+      "locator_type": "explicit_bracketed",
+      "section": "4. PAA (104 CFU/ML)",
+      "text": "Initially two different sizes of gel beads were made with some of the compatible compounds and sodium alginate and conidia in Calcium chloride solution. FIG. 18 shows an example of the beads initially made. The smallest one was about 0.5 mm without any agitation of the Calcium chloride solution for gel formation."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0132]",
+      "locator_type": "explicit_bracketed",
+      "section": "4. PAA (104 CFU/ML)",
+      "text": "10-12 beads were put in the water activity cell and measured this after formulation and removing excess water and then 4 h later at 25°C in 50-60% RH. The results are shown in the Table 4 below."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0133]",
+      "locator_type": "explicit_bracketed",
+      "section": "4. PAA (104 CFU/ML)",
+      "text": "Table 4 shows initial and final water activity of the smaller immobilized gel formulations using the Aqualab 4TE water activity machine. Samples of gels were kept at 25°C and 50-60% RH. This clearly shows that there was a variation in the initial gel water activity depending on the compounds used for their formation. Initially they were all relatives wet with high water activities. However, after 4 h they had significantly dried to levels where no fungal growth would occur at all. This suggests that humectants or additives would be necessary to try and conserve water for longer time periods. Table 4. Change in water activity during drying of formulated gel beads kept at 25°C and 5060% R.H. | Compound T = 0 T = 4 hrs Gum arabic 0.9601 0.5095 Arabinogalactan 0.9647 0.5229 Acrylic acid sodium salt 0.9707 0.6113 Maltodextran 0.9669 0.5279 | |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0134]",
+      "locator_type": "explicit_bracketed",
+      "section": "4. PAA (104 CFU/ML)",
+      "text": "These beads were then plated onto ½ SDA and ½ SDA 0.95 water activity to examine the germination after 3, 6 and subsequently 15 h by staining. After 3 h there was no germination of the conidia regardless of treatment (4 different compounds and conidia). However, after 6 h we could see some germination on the ½ SDA medium with freely available water. FIG. 19 shows the germination of conidia from four different formulations made. There were some differences in germ tube lengths among formulations, but this would need to be quantified by measurement subsequently. ## Microencapsulation of conidia into smaller beads using stirred calcium chloride solutions"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0135]",
+      "locator_type": "explicit_bracketed",
+      "section": "MICROENCAPSULATION OF CONIDIA INTO SMALLER BEADS USING STIRRED CALCIUM CHLORIDE SOLUTIONS",
+      "text": "FIGs 20 and 21 show examples of the much smaller beads which were subsequently made. These were variable in size but had much less conidial loads than previously. The average size of these beads was between 75 - 200 μm in diameter. The 21 PCT/GB2019/052584 WO 2020/053603 PCT/GB2019/052584 germination from these beads can be clearly seen after 15 h for two of the four formulations which have been sent to the applicant for bioassays."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0136]",
+      "locator_type": "explicit_bracketed",
+      "section": "MICROENCAPSULATION OF CONIDIA INTO SMALLER BEADS USING STIRRED CALCIUM CHLORIDE SOLUTIONS",
+      "text": "It was noted that under water stress conditions, regardless of formulations made the germination was just beginning to take place at 0.95 aw after 15 h (FIG. 22)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0137]",
+      "locator_type": "explicit_bracketed",
+      "section": "MICROENCAPSULATION OF CONIDIA INTO SMALLER BEADS USING STIRRED CALCIUM CHLORIDE SOLUTIONS",
+      "text": "Micro formulation of four blastospore formulations for bioassays"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0138]",
+      "locator_type": "explicit_bracketed",
+      "section": "MICROENCAPSULATION OF CONIDIA INTO SMALLER BEADS USING STIRRED CALCIUM CHLORIDE SOLUTIONS",
+      "text": "Two different compatible compounds were used for formulation of blastospores. Gum arabic and polyacrylic sodium salt were used."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0139]",
+      "locator_type": "explicit_bracketed",
+      "section": "MICROENCAPSULATION OF CONIDIA INTO SMALLER BEADS USING STIRRED CALCIUM CHLORIDE SOLUTIONS",
+      "text": "FIG. 23 shows the four formulations made and sent to the applicant for bioassays. FIG. 24 shows an example of the growth from blastospores after 24 h on ½ SDA medium."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0140]",
+      "locator_type": "explicit_bracketed",
+      "section": "MICROENCAPSULATION OF CONIDIA INTO SMALLER BEADS USING STIRRED CALCIUM CHLORIDE SOLUTIONS",
+      "text": "Generally, growth was not as fast as for germ tube extension from conidia after formulation, with no growth from blastospore formulations at 0.95 aw ½ SDA medium even after 48 h at 25°C. ## Example 8"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0141]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 8",
+      "text": "Using techniques from Examples 6 and 7: ## Dry conidial formulations for dispersion as a wettable powder"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0142]",
+      "locator_type": "explicit_bracketed",
+      "section": "DRY CONIDIAL FORMULATIONS FOR DISPERSION AS A WETTABLE POWDER",
+      "text": "Conidia of M. anisoplae BNL 102 was immobilised in sodium alginate and five different compatible compounds (1.25% concentration). These have been mixed with magnetic stirrers and then the gels formed in 3% calcium chloride. About 20 mL of each formulation was used to prepare enough beads for drying and making of formulated powders and for viability assays on ½ strength SDA and the same medium at 0.95 water activity. The treatments used were: 1. Gum Arabic (soluble) 2. (+) Arabinogalactan (soluble) 3. Alpha-Cyclodextrin (soluble) 4. Poly (acrylic acid sodium salt) (soluble) 5. Maltodextrose (soluble) ## Formulation of five different conidia for producing dry powders"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0143]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATION OF FIVE DIFFERENT CONIDIA FOR PRODUCING DRY POWDERS",
+      "text": "Five (5) different formulations were made into small microcapsules of about 0.25 - 0.5 mm diameter. The intention here was to dry these down and to then make these into powders which could then be dispersed in water and a wetting agent and sprayed. However, when these were dried and ground up they formed fine layers of material containing the spores and not very particulate. This suggests that additional additives are required to be able to dry and then grind the gel beads into powders. 22 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0144]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATION OF FIVE DIFFERENT CONIDIA FOR PRODUCING DRY POWDERS",
+      "text": "FIG. 25 shows the 5 different formulations after drying and grinding. Key to compounds used: 4, Gum Arabic (soluble); 8, (+) Arabinogalactan (soluble); 9, AlphaCyclodextrin (soluble); 10, Poly (acrylic acid sodium salt) (soluble); 11, Maltodextrose (soluble) ## Example 9 ##"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0145]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE 9",
+      "text": "Using techniques from Example 6 to 8: Infectivity of formulated materials against adult WFT Rearing of WFT"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0146]",
+      "locator_type": "explicit_bracketed",
+      "section": "[00145]USING TECHNIQUES FROM EXAMPLE 6 TO 8: INFECTIVITY OF FORMULATED MATERIALS AGAINST ADULT WFT REARING OF WFT",
+      "text": "A colony of WFT was maintained at Bioneas described by Ansari et al. (2007). Briefly, WFT were reared in ventilated plastic containers (29 × 29 × 16 cm) kept at 28 ± 1°C, 50 – 60 % r.h., and L16:D8 photoperiod. Between 40 - 50 adult WFT were introduced into the containers and provided with 3 - 4 pieces (8 - 9 cm length) of green bean (Phaseolus vulgaris L.) for oviposition and 2 - 3 yellow chrysanthemum flowers (Asda). After 3 days, the beans were transferred to fresh ventilated plastic containers (28 × 20 × 10 cm). Adults WFT were used in all bioassays (FIG. 27A). ## Formulations"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0147]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS",
+      "text": "The following formulations were received by the applicant from a CRO, for bioassay test. Products were stored at 10°C until use."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0148]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS",
+      "text": "Formulation from dry conidia of BNL 102 1. Gum Arabic (106 cfu/mL) 2. Gum Arabic (104 cfu/mL) 3. Maltodextrin (106 cfu/mL) 4. Maltodextrin (104 cfu/mL)"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0149]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS",
+      "text": "Formulation blastospore of BNL 102 1. Gum Arabic (106 cfu/mL) 2. Gum Arabic (104 cfu/mL) 3. PAA (106 cfu/mL) 4. PAA (104 cfu/mL)"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0150]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS",
+      "text": "Formulations testing against adult WFT"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0151]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS",
+      "text": "These experiments were designed to evaluate the infectivity of different formulations against adult WFT. Assays were conducted in white opaque plastic containers (25 x 25 cm; 15 cm in depth; surface area 625 cm₂) as described by Ansari et al. (2011) with slight modification. One ventilation hole (10 x 10 cm) was made in each lid and covered with nylon gauze (64 mm pore size). A double layer of moist tissue paper was placed in each 23 WO 2020/053603 PCT/GB2019/052584 container so that it covered the bottom and halfway up each side. Three fresh beans and five chrysanthemum flowers were placed on the top of the tissue paper. After that, conidia and blastospore formulations at the rate of 104 and 106 cfu/cm2 were sprayed using a hand-held sprayer (pore size 300 μm) (FIG. 29)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0152]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS",
+      "text": "For each replicate, approximately 400 adult WFT were released into each container. WFT were therefore continually exposed to formulations through tarsal contact or on the head and thorax region for the duration of the study. The tissue paper remained in the container until the end of the test (a minimum of 72 h). Control WFT were treated in the same way but in the absence of conidia or blastospore formulation. Containers were kept in a constant temperature room (28 ± 1oC, 80 - 90% r.h., and L16:D8). WFT survival was monitored daily 5 for 72 h. Dead WFT were collected individually from each container, dipped in 70% ethanol, and incubated on moist tissue paper in Petri dishes (25 ± 1C for 2 - 3 days) after which they were examined using a light microscope at magnification 40x for evidence of fungal sporulation. Each treatment was replicated four times and the whole experiment was conducted twice. ## Bioassay results"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0153]",
+      "locator_type": "explicit_bracketed",
+      "section": "BIOASSAY RESULTS",
+      "text": "Overall bioassays results showed that blastospore formulations were better than the conidial formulations and providing &gt;80% WFT control. Conidial formulations"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0154]",
+      "locator_type": "explicit_bracketed",
+      "section": "BIOASSAY RESULTS",
+      "text": "Both Gum Arabic and Maltodextrin formulations significant reduced WFT survival compared with untreated control 3 days after exposure (FIG. 26). Overall, conidia formulated in Maltodextrin was the most effective formulation and caused a significantly greater reduction in WFT survival compared with Gum Arabic formulation. Following continuous exposure, 100% mortality (confirmed by fungal sporulation on WFT cadavers; FIG. 27) was observed with both formulation by day 5 compared to estimated cumulative mortalities of 38.8%, 28.3%, 50.5%, 48.1 and 85.0% for Dry spore (106 cfu/cmunformulated), GA (104 cfu/cm), GA (106 cfu/cm), MD (104 cfu/cm) and MD (10⁶ cfu/cm), respectively. Control treatments showed 4.0% (with 0% sporulation) WFT mortality 5 days after treatment. ## Blastospore formulations"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0155]",
+      "locator_type": "explicit_bracketed",
+      "section": "BLASTOSPORE FORMULATIONS",
+      "text": "Both Gum Arabic and Maltodextrin formulations significant reduced WFT survival compared with untreated control 3 days after exposure (FIG. 28). Overall, conidia formulated in Maltodextrin was the most effective formulation and caused a significantly 24 WO 2020/053603 PCT/GB2019/052584 greater reduction in WFT survival compared with Gum Arabic formulation. Following continuous exposure, 100% mortality (confirmed by fungal sporulation on WFT cadavers) was observed with both formulations by day 5 compared to estimated cumulative mortalities of 45.0%, 57.5%, 65.0%, 67.0% and 75.6% for Dry spore (10⁶ cfu/cm-unformulated), GA (104 cfu/cm), GA (10⁶ cfu/cm), MD (104 cfu/cm) and MD (10⁶ cfu/cm), respectively. Control treatments showed 4.0% (with 0% sporulation) WFT mortality 5 days after treatment. ## Conclusions from Examples 6 to 9 ## Compatibility studies"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0156]",
+      "locator_type": "explicit_bracketed",
+      "section": "COMPATIBILITY STUDIES",
+      "text": "The compatibility study has shown that there is good compatibility between both conidia and blastospores with many of the compounds."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0157]",
+      "locator_type": "explicit_bracketed",
+      "section": "COMPATIBILITY STUDIES",
+      "text": "The important data was found to be related to capability for conidial or blastospore germ tube extension where differences were observed at both 0.995 aw after 24 h, and at 0.95 aw after 48 h. ## Formulations of conidia and blastospores"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0158]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "Overall, three different types of formulations were prepared. Because two sizes pf particles were considered large (0.25 - 0.75 mm diameter) a mixing system with a magnetic stirrer was used to obtain much finer formulated conidia and blastospores to obtain the range of sizes necessary."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0159]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "In some embodiments, if bead size is not controlled, beads formed may be of variable sizes. This could preferably be improved by using, for example, a propeller-based mixing system with different speeds and propeller sizes."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0160]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "Overall, germination of both conidia and blastospores was not initiated after about 4 h. However, after 6 h this was initiated in the formulations made with the two compounds used for both types of propagules, regardless of inoculum level."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0161]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "Blastospore formulations were more sensitive to formulation than the conidia."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0162]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "Overall, growth from blastospores, even with freely available water was not as good as that from conidia formulations after 24 and 48 h. This could be due to blastospores, while being more virulent in killing insect pests, are more sensitive to desiccation and less amenable to formulation because of the more fragile nature of the mycelial cell wall vs the conidia which have a thicker wall and are more resilient."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0163]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "Production of the five dry formulations was attempted. We were able to produce the microencapsulated conidia in 0.25 - 0.5 mm gels. These were dried and then ground. In some instances, this may result in fine sheets/fragments of the encapsulated products. 25 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0164]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "This may be suitable for particular applications. In applications requiring powdered product, it may in some such cases be required to provide additional additives, such as for example, dispersants; stickers; and/or fillers to provide a dry powder-based product. Examples of such products will be known to the skilled addressee."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0165]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "Bioassays"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0166]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "This study looks to demonstrate the efficacy of entomopathogenic fungus formulated products against adult WFT. Whilst all formulations and doses tested significantly reduced WFT survival, conidia or blastospore formulated in maltodextrin was the most effective formulation and caused a significantly greater reduction in WFT survival compared with gum arabic formulation at higher dose."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0167]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "Larvae of WFT also cause considerable damage."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0168]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "Adult WFT are very mobile and it is therefore important to acquire enough formulated product on the leaf surface."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0169]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "Following continuous exposure, 100% mortality was confirmed. The presence of fungal sporulation on WFT cadavers confirmed that infected insects can transmit fungal spores to other healthy insects, further reducing the pest population."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0170]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "Spraying nozzles vary in size. Formulated microcapsules for use in spraying are preferably provided which are suitable for use in conventional spraying nozzles (100, 200, 300 μm) and specially designed spraying nozzles depending on the application. It is preferable to tailor the size of any formulation to the desired spraying nozzle, or optionally vice versa, to enable an even spraying."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0171]",
+      "locator_type": "explicit_bracketed",
+      "section": "FORMULATIONS OF CONIDIA AND BLASTOSPORES",
+      "text": "A method of preparing a microencapsulation composition in accordance with a third or fourth aspect of the present invention is provided in FIG. 30. Figure 30 provides for the method that is used to produce a composition comprising a mixture of BNL101 and BNL102 according to the first aspect of the present invention. Embodiments are available wherein the method is used to produce a composition comprising only BNL101 or BNL102. ## Example - Microencapsulation of fungal spores - Novel Microencapsulation of fungal spores for major crop pest control and effective integrated pest management procedures"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0172]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "The control of insect pests using entomopathogenic fungi to avoid chemical pesticides application and to increase environmental protection is provided via the present biopesticides formulations. For the safe and targeted application, the fungal biopesticide must be formulated in a way that maintains the viability, stability, virulence of fungal conidia, and 26 WO 2020/053603 PCT/GB2019/052584 that protects them from adverse effects of environment. The product is also economical (less expensive than other available pesticides and biopesticides) and easy to apply."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0173]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "There are several approaches for preparing biopesticide formulations. One preparation provides for the encapsulation of the fungal spores in polymers. The material compositions for the biopesticides described here include gelatin, chitosan, sodium alginate, hydroxypropyl methyl cellulose (HPMC), dextrin, cyclodextrins, aliphatic polyesters, such as homo and copolymers of lactate and glycolate (PLA, PGA, and PLGA), poly and caprolactone (PCL), polyhydroxyalkanoates (PHA), cassava starch. These agents are described generally in Liu &amp; Liu, 2009 and Rodrigues et al., 2017."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0174]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "To microencapsulate the spores of Metharizium anesoplea, the alginic acid, Na salt from Acros Organic or Sigma-Aldrich was used as a base polymer. Sodium alginate (SA) is a linear heteropolysaccharide with two structural units - D-mannuronic and L-guluronic acids. In the process of encapsulation, the spores were entrapped in a 3-D lattice of ionically crosslinked alginate."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0175]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "To modify the properties of microcapsules, the following co-polymers were used: 1. Pectin (PE) from citrus peel – natural polysaccharide, composition: galacturonic acid ≥74.0 % (dried basis), ≤10% moisture. Produces insoluble salt calcium pectinate. 2. Hydroxypropyl methylcellulose (Hypromellose, HPMC) – semisynthetic viscoelastic polymer H7509, Sigma, viscosity 2,600-5,600 cP, 2 % in H2₂O (20 C). 3. Methylcellulose (MC) - M0562, Sigma, viscosity 400 cP, 2 % in H2O (20 C). 4. Gum Arabic (GA) from acacia tree, brunched polysaccharide - G9752, Sigma. 5. Guar Gum (GG) galactomannan polysaccharide extracted from guar beans - G4129, Sigma."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0176]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "All copolymers used are nontoxic, nonallergenic, and edible substances."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0177]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "The co-polymers of different viscosity were chosen as modulators of the microcapsules morphology: lower viscosity allows to obtain smaller and spherical microspheres, whereas polymers of high viscosity produce larger and elongated microspheres and may increase the degree of agglomeration of microspheres (L.W. Chan, et al., 1997)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0178]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Capsules containing Spores-Production"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0179]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "For the M anisopliea spores microencapsulation, the method of emulsificationgelation was used. This emulsification method was modified. Modifications as described in Xue J., Zhang Zh., 2009, were considered. The spores of entomopathogenic fungus M. anisopliea obtained from Bionema Ltd (~600 mg). 27 WO 2020/053603 PCT/GB2019/052584"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0180]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "The schematic diagram of the emulsification-gelation process is shown in Figure 31."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0181]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "The M. anisopliea spores are highly hydrophobic, to disperse them 0.03% Tween-80 solution was used. The concentration of the working suspension was ~107 (1 mg/ml). (FIG. 31)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0182]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "The required amount (200 ml) of a continuous oily phase (sunflower oil, bought from a local market So ≈ 0.9 g·mL-1) was put into a jacketed 250 ml reactor, the temperature of the reactor was stabilised at 25 °C. Fungal spores suspension was mixed with the solution of the polymer/polymers to a required concentration of a polymer. The mixture of spores and polymer was dispersed in oil by a turbine impeller at the agitation speed of 400 rpm for 30 min to form a stable emulsion. CaCl2 powder (1g - 250 mg) was added slowly into the water/oil (w/o) system. Agitation was maintained for another 2 h or as stated. The formed microspheres settled at the bottom of the stirred vessel were collected after the agitation was stopped by vacuum filtration, washed by 0.03% Tween 80 solution and dried at room temperature."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0183]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Table 5. Samples of microcapsules prepared using different co-polymers | Sample Sample name Polymers Base Co- Base:co- [Spores] Cross- Polymerisation number conc, % polymer polymer polymer linker, time, min % g 1 SAFS000 4 SA ni 1.0 120 2 SAFS001 2 SA ~10-3 120 3 SAFS002 2 SA ~10-7 120 4 SAFS003 3 SA ~10-7 120 5 SA 2 SA ~10-7 0.25 10,20,30,40, 60,120 6 PE 2 Pectin ~10-7 0.25 30 7 PE-2 2 Pectin ~10-7 0.25 60 8 SA+PE 7:3 2 SA Pectin 30 ~10-7 0.25 40 9 SA+HPMC 7:3 2 SA HPMC 30 ~10-7 0.25 40 10 SA+PE+HPMC 2:1:1 2 SA Pectin 25,25 ~10-7 0.25 40 HPMC 11 SA+HPMC 4:1 2 SA HPMC 20 ~10-7 0.25 40 12 SA+MC 4:1 2 SA MC 20 ~10-7 0.25 40 13 SA+HPMC 9:1 2 SA HPMC 10 ~10-7 0.25 40 14 SA+MC 9:1 2 SA MC 10 ~10-7 0.25 40 | |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 28 WO 2020/053603 PCT/GB2019/052584 | 15 SA+MC 9:1 liq 2 SA MC 10 ~10-7 0.25 40 16 SAsigma 1.5 SA ~10-7 0.25 40 17 SAAcros 1.5 SA ~10-7 0.25 40 18 SA+GA 2 SA Gum 30 ~10-7 0.25 40 Arabic 19 SA+GG 2 SA Guar 10 ~10-7 0.25 40 Gum | |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0184]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Microcapsules prepared using pectin only were stable only when suspended in water and agglomerate when air dried. Agglomeration happened independently of crosslinking time and this formulation was not considered for further study. Capsules prepared with higher concentration (30%, 20%) of a co-polymer, such as HPMC and MC, tend to agglomerate more as compared to 10% co-polymer addition. The study of formulations of sodium alginate microcapsules with gum Arabic and Guar gum as a co-polymer"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0185]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Characterization of capsules containing spores"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0186]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "The microcapsules produced were observed routinely under the light microscope. The microcapsules of different composition showed slightly irregular spherical or oval shape, they were varied in size and size distribution depending on steering speed used to prepare emulsion. Fig.33A-33C show an example of a capsule using different microscopy techniques. Top-view (33A), side view (33B), SEM view (33C)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0187]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Capsules size distribution was studied using laser particle size analyser Mastersizer 2000. According to our observation, the optimal stirring speed for formulation of microcapsules of ~50-80 μm in diameter is about 700 rpm."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0188]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Preparations containing the co-polymers of higher viscosity (pectin, HPMC) were tending to form two-peak size distributions."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0189]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Viability of encapsulated spores."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0190]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "After producing encapsulated spores using alginate, pectin and alginate with polymers (HPMC, MC, pectin, gum Arabic, Guar gum), the microcapsules suspension was plated on SDA plates. In all preparations the spores remained viable after encapsulation (FIG 35)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0191]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Drying conditions on the storage stability of the incapsulated fungal spores. ok o o [ to a e4 s e[ose] drying technologies for preservation and formulation of 14- to 20-day-old aerial conidia of Beauveria brongniartii and Metarhizium anisopliae. Conidia were dispersed in an aqueous mixture of skim milk and polyvinylpyrrolidone (PVP K90) and subjected to Io t ss t tt u - a -ds o 29 WO 2020/053603 PCT/GB2019/052584 anisopliae can tolerating exposure to 50 °C for 2 min without loss in viability. Lyophilization was the most destructive for M. anisopliae with viability level of 4% after freeze-drying. Both spray- and fluid-bed drying methods resulted in severe damage to the fungal material already at an inlet/outlet temperature regime of 60/40 ± 2 °C, reflected by low and prolonged germination rates."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0193]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "The results of germination tests by Horaczek, and Viernstein, 2004 show that lyophilization with a SM/PVP matrix is a promising drying method for B. brongniartii whereas the process resulted in complete loss of viability for M. anisopliae. According to authors, high germination rates had been achieved with atmospheric tray drying—a process by which organisms and carriers are slowly air-dried for 16 h or longer."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0194]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Microencapsulated spores, which were air dried and stored at room temperature for 5 months, were viable after rehydration of the capsules. Within a rehydrated sample a part of microcapsules appeared to agglomerate (FIG. 36)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0195]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Mechanical strength of microcapsules for breakage by spraying."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0196]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Mechanical properties of microcapsules were tested using micromanipulation technique. Dried microcapsules were dispersed on a glass slide (FIG.37A) and placed under a glass probe which was attached to the force transducer (Model 402A, Aurora Scientific, Canada). The force transducer was driven by a motor, which allowed to control the distance and speed. The air-dried capsules were found to be tough (transducers force scale: 0.5 g, 1 g, 5 g; sensitivity accordingly ~0.5 mN/V, ~0.9 mN/V, ~4.5 mN/V). To estimate the mechanical strenth of wet capsules special small chamber was used (FIG 37B) and nicromanipulation testing was conducted in water (FIG. 37C)."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0197]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Due to the matrix nature of the cross-linked polymer comprising the capsules, they showed elastic-plastic behaviour and did not show a rupture under compression. The applied force nedded to acheive the same displacement within dry and wet spores was about 10 times less for wet capsules. This observation indicates that there is a high probability that wet capsules will be disrupted by a shier force in the process of spraying."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0198]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "The suspension of alginate – HPMC microcapsules, when sprayed on a glass slide using small volume (100 ml) pulveriser, showed a rupture of capsules. This study is currently in progress."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0199]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Water retention capability of the broken microcapsules."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0200]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "The moisture level was estimated using Satorius MA37 moisture balances. Before the moisture level measurements, the samples were air dried for 48 h then left for conditioning at humidity 58.7% and t = 26.2 °C for 4 hours. 30 WO 2020/053603 PCT/GB2019/052584 Table 6. Moisture level of the samples of spore-containing microcapsules | Sample no Sample name Moisture, % 1 SA 24.4 2 PE-2 NA 3 SA+PE 7:3 23.8 4 SA+HPMC 7:3 14.3 5 SA+PE+HPMC2:1:1 23.1 6 SA+HPMC 4:1 13.04 7 SA+MC 4:1 15.5 8 SA+HPMC 9:1 18.5 9 SA+MC 9:1 17.3 10 SA+MC 9:1 aq CaCl₂ 12.2 | |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0201]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "Alginate acts as a physical barrier and a humidity controller; compared to HPMC and MC, pectin is better in moisture retaining."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0202]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "An important function of alginate encapsulation is UV-protective properties of alginate. According to Zohar-Perez et al., [6] dried alginate matrix transmitted an average of only 7.2% of UV radiation. Filler incorporation into the matrix significantly reduced UV transmission: Alginate with kaolin, bentonite and chitin transmitted an average of 0.15, 0.38 and 3.4% of the radiation, respectively [6]. Fillers incorporation into microcapsule formulations might be also used."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0203]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "The viability of encapsulated spores after long storage in dried form and in oil suspension is also expected to be preserved."
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0204]",
+      "locator_type": "explicit_bracketed",
+      "section": "EXAMPLE - MICROENCAPSULATION OF FUNGAL SPORES - NOVEL MICROENCAPSULATION OF FUNGAL SPORES FOR MAJOR CROP PEST CONTROL AND EFFECTIVE INTEGRATED PEST MANAGEMENT PROCEDURES",
+      "text": "It will be appreciated that the above described embodiments are given by way of example only and that various modifications may be made to the described embodiments without departing from the scope of the invention as defined in the appended claims. For example, various other additives, such as UV agents including, for example TiO₂, ZnO can be added to the composition, as can be appreciated by the skilled addressee. Further alternative 31 WO 2020/053603 PCT/GB2019/052584 embodiments may comprise different coating materials, such as, for example, lipids, which may be used to improve efficacy. Additional composition embodiments my comprise additional ions, or optimized by changing any the amounts, percentages, proportions, ratios or parameters defined herein, such as varying the amounts of additives or mixing time. Additional embodiments of the composition may be appreciated by the skilled reader to be developed for use with other insect-pathogenic fungal spores, such as, inter alia Beauveria bassiana and Isaria fumosoroseus. 32 WO 2020/053603 ## References"
+    },
+    {
+      "doc_id": "WO2020053603A1",
+      "doc_title": "Insect-Pathogenic Fungus, Spores, Composition and Use of Same",
+      "source_path": "/Users/nitin/Documents/bionema-retrieval-poc/data/pdfs/WO2020053603A1.pdf",
+      "locator": "[0205]",
+      "locator_type": "explicit_bracketed",
+      "section": "REFERENCES",
+      "text": "The following references are specifically incorporated herein by reference. 1. C.P. Liu &amp; S.D. Liu, 2009. Journal of Microencapsulation, v. 26:5, p. 377-384, DOI: 10.1080/02652040802365455 2. Rodrigues et al., ,2017. Acta Scientiarum. Agronomy, Maringá, v. 39, n. 4, p. 457464 3. L.W. Chan, P.W.S. Heng and L.S.C. Wan, 1997. J. Microencapsulation, v. 14, n. 5, p. 545-555 4. J. Xue, Zh. Zhang, 2009. J Appl Polymer Sci, v. 113, p. 1619–1625 5. A. Horaczek, and H. Viernstein, 2004. Biological Control, v. 31 (1), p. 65-71 6. C. Zohar-Perez, L. Chernin, I. Chet, A. Nussinovitch, 2003. Structure of dried cellular alginate matrix containing fillers provides extra protection for microorganisms against UVC radiation. Radiat Res V. 160(2), p. 198-204. 33 PCT/GB2019/052584 WO 2020/053603 ## Biological Deposits The application refers to the following indications of deposited biological materials: Name: CABI Bioscience, UK Centre (IMI) Address: Bakeham Lane, Englefield Green, Egham, Surrey TW20 9TY, United Kingdom. Date: 01 May 2018 Accession Number: ICI CC 506833 Descriptor: BNL 101 Depositor: Bionema Limited -and- Date: 01 May 2018 Accession Number: ICI CC 506834 Descriptor: BNL 102 Depositor: Bionema Limited PCT/GB2019/052584 WO 2020/053603 ## CLAIMS: nng nosnn n mnz -n a sin oairn a strain, wherein said Metarhizium var. anisopliae fungal strain is a BNL 101 fungal strain having ICI CC Number 506833, or a BNL 102 fungal strain having ICI CC Number 506834, wherein said preparation has an insecticidal activity against WFT that is 2 to 3 times greater than a preparation without the BNL 101 fungal strain or BNL 102 fungal strain. 2. A preparation comprising fungal spores from a Metarhizium var. anisopliae fungal strain, wherein said Metarhizium var. anisopliae fungal strain is BNL 101 having ICI CC Number 506833 or a BNL 102 having ICI CC Number 506834, wherein said preparation has a insecticidal activity against WFT that is 2 to 3 times greater than a preparation without spores obtained from the BNL 101 fungal strain or BNL 102 fungal strain. 3. A preparation comprising blastospores of a BNL 102 fungal strain having ICI CC Number 506834. 4. A composition comprising: the preparation of claim 1 or claim 2; and an agronomically acceptable carrier comprising: bioplastic; polyacrylic acid; silica; zinc oxide; titanium dioxide; sodium selenosulfate; silver; hydrogel; carboxymethyl cellulose; methoxyl pectin; metal ions; chitosan; humectant; cellulose acetate; xantham gum; gum arabic; sodium alginate; chitosan; pectin citrus; arabinogalactan; alpha-cyclodextrin; maltodextrose; cellulose, or a combination thereof. 5. A powder or liquid comprising the composition of claim 4. 6. The composition of claim 4, wherein the hydrogel comprises sodium alginate. 7. The composition of claim 4 or claim 6, wherein the metal ions comprise copper ions, iron ions or a combination thereof. 8. The composition of claim 4, claim 6 or claim 7, wherein the humectant comprises glycerol. 35 PCT/GB2019/052584 WO 2020/053603 PCT/GB2019/052584 9. A microencapsulated preparation comprising the preparation of claim 1 or claim 2. 10. The microencapsulated preparation of claim 9 comprising fungal spore particles having a size of between about 1 to about 100 nanometres (nm). 11. A method for controlling a population of insects comprising: providing a composition comprising the preparation of claim 1 or claim 2 to the insect population, and controlling the population of insects, wherein the composition has an insecticidal activity that is 2 to 3 times greater than a composition without the preparation of claim 1 or claim 2. 12. The method of claim 11 wherein the composition comprises an agronomically acceptable carrier comprising a bioplastic; polyacrylic acid; silica; zinc oxide; titanium dioxide; sodium selenosulfate; silver; hydrogel; carboxymethyl cellulose; methoxyl pectin; metal ions; chitosan; humectant; cellulose acetate; xantham gum; gum arabic; sodium alginate; chitosan; pectin citrus; arabinogalactan; alpha-cyclodextrin; maltodextrose; cellulose, or a combination thereof. 13. The method of claim 11 or claim 12, wherein the amount of the composition required to control the population of insects is 2 times less than the amount of a composition without the preparation of claim 1 or claim 2 required to control the same population of insects. 14. The method of claims 11 to 13, wherein the population of insects comprises: western flower thrip, weevils, aphids, whitefly, spider mites, caterpillars, chafers, ticks, midges, mosquitos or a combination thereof. 15. The method of claims 11 to 13, wherein the population of insects comprises: Western flower thrip (Frankliniella occidentalis); Spider mites (Tetranychus urticae); Whiteflies (Aleyrodidae spp); Aphids (Myzus persicae); Mosquitoes (Aedes aegypti; Anopheles teos ui) r ds x sb isss European May beetle (Melolontha melolontha); June beetle (Hoplia philanthus); Leatherjackets (Tipula paludosa); Wireworm (Agriotes spp); Biting midge (Culicoides spp); Vine weevil (Otiorhynchus sulcatus); Pine weevil (Hylobius abietis), or a combination thereof. 36 WO 2020/053603 1/37 <!-- image --> FIG.1 PCT/GB2019/052584 WO 2020/053603 2/37 <!-- image --> FIG.2 PCT/GB2019/052584 WO 2020/053603 3/37 <!-- image --> PCT/GB2019/052584 WO 2020/053603 4/37 <!-- image --> FIG. 4 PCT/GB2019/052584 WO 2020/053603 5/37 <!-- image --> <!-- image --> FIG.5A <!-- image --> FIG.5C FIG.5B <!-- image --> FIG.5D PCT/GB2019/052584 WO 2020/053603 6/37 <!-- image --> PCT/GB2019/052584 WO 2020/053603 7/37 <!-- image --> PCT/GB2019/052584 WO 2020/053603 FIG.8A <!-- image --> 8/37 FIG.8B <!-- image --> PCT/GB2019/052584 FIG.8C <!-- image --> 9/37 <!-- image --> WO 2020/053603 10/37 FIG.10 <!-- image --> PCT/GB2019/052584 WO 2020/053603 11/37 <!-- image --> FIG.11 PCT/GB2019/052584 WO 2020/053603 12/37 <!-- image --> FIG.12 PCT/GB2019/052584 WO 2020/053603 13/37 <!-- image --> FIG.13 PCT/GB2019/052584 WO 2020/053603 14/37 <!-- image --> FIG.14 PCT/GB2019/052584 WO 2020/053603 15/37 <!-- image --> FIG.15 PCT/GB2019/052584 WO 2020/053603 16/37 <!-- image --> FIG.16 PCT/GB2019/052584 WO 2020/053603 17/37 <!-- image --> FIG.17 PCT/GB2019/052584 WO 2020/053603 18/37 FIG.18 <!-- image --> PCT/GB2019/052584 Compound 4 Gum Arabic-6 h (1/2 SDA) <!-- image --> FIG.19A Compound 10 Polyacrylic sodium salt-6 h (1/2 SDA) <!-- image --> FIG.19C 19/37 Compound 8 Arabinogalactan-6 h (1/2 SDA) <!-- image --> FIG.19B Compound 11 Maltodextrose-6 h (1/2 SDA) <!-- image --> FIG.19D 20/37 FIG.20 <!-- image --> 21/37 FIG.21 <!-- image --> 22/37 FIG.22 <!-- image --> FIG.23 <!-- image --> WO 2020/053603 24/37 FIG.24 <!-- image --> PCT/GB2019/052584 FIG.25 <!-- image --> WO 2020/053603 26/37 <!-- image --> FIG.26 PCT/GB2019/052584 <!-- image --> FIG.27A FIG.27B <!-- image --> 27/37 FIG.27C <!-- image --> WO 2020/053603 28/37 FIG.28 <!-- image --> PCT/GB2019/052584 WO 2020/053603 FIG.29A 29/37 FIG.29B PCT/GB2019/052584 FIG.29C <!-- image --> FIG.29D FIG.29E WO 2020/053603 30/37 FIG.30 <!-- image --> PCT/GB2019/052584 WO 2020/053603 <!-- image --> PCT/GB2019/052584 3 G s00000 FIG.32 <!-- image --> Top-view FIG.33A <!-- image --> 33/37 Side-view FIG.33B <!-- image --> NMUD9.1 x1.8k 50 μm SEM view <!-- image --> FIG.33C WO 2020/053603 34/37 <!-- image --> PCT/GB2019/052584 PCT/GB2019/052584 FIG.35 <!-- image --> PCT/GB2019/052584 FIG.36 <!-- image --> <!-- image --> 37/37 FIG.37A FIG.37B <!-- image --> <!-- image --> FIG.37C <!-- image --> ## INTERNATIONAL SEARCH REPORT <!-- image --> International application No PCT/GB2019/052584 A. CLASSIFICATION OF SUBJECT MATTER INV.A A01N63/04 A01N25/02 A01N25/14 A01N25/28 ADD. According to International Patent Classification (IPC) or to both national classification and IPC ## B. FIELDS SEARCHED Minimum documentation searched (classification system followed by classification symbols) A01N Documentation searched other than minimum documentation to the extent that such documents are included in the fields searched Electronic data base consulted during the international search (name of data base and, where practicable, search terms used) EPO-Internal, CHEM ABS Data, WPI Data ## C. DOCUMENTS CONSIDERED TO BE RELEVANT Category* Citation of document, with indication, where appropriate, of the relevant passages Relevant to claim No. A Hafiza Tahira Gul ET AL: 1-15 \"Entomopathogenic Fungi as Effective Insect Pest Management Tactic: A Review\", i January 2014 (2014-01-01), pages 10-18, XP55324381, Retrieved from the Internet: URL:http://www.bzujournal.org/10-18.pdf [retrieved on 2016-11-30] the whole document A ( DNN5C / C 1-15 23 November 2017 (2017-11-23) the whole document -1-- X X Further documents are listed in the continuation of Box C. See patent family annex. Special categories of cited documents : \"T\" later document published after the international filing date or priority \"A\" document defining the general state of the art which is not considered date and not in conflict with the application but cited to understand the principle or theory underlying the invention to be of particular relevance \"E\" earlier application or patent but published on or after the international \"X\" document of particular relevance; the claimed invention cannot be filing date considered novel or cannot be considered to involve an inventive \"L\" document which may throw doubts on priority claim(s) or which is step when the document is taken alone cited to establish the publication date of another citation or other \"Y\" document of particular relevance; the claimed invention cannot be special reason (as specified) considered to involve an inventive step when the document is \"O\" document referring to an oral disclosure, use, exhibition or other combined with one or more other such documents, such combination means being obvious to a person skilled in the art \"P\" document published prior to the international filing date but later than the priority date claimed \"&amp;\" document member of the same patent family Date of the actual completion of the international search Date of mailing of the international search report 20 November 2019 05/12/2019 Name and mailing address of the ISA/ Authorized officer European Patent Office, P.B. 5818 Patentlaan 2 NL- 2280 HV Rijswijk Tel. (+31-70) 340-2040, Hateley, Martin Fax: (+31-70) 340-3016 ## INTERNATIONAL SEARCH REPORT International application No PCT/GB2019/052584 | C(Continuation). DOCUMENTS CONSIDERED TO BE RELEVANT Category* Citation of document, with indication, where appropriate, of the relevant passages Relevant to claim No. A Tech ET AL: \"TECHNICAL NOTES FOR Met52 1-15 Granular Bioinsecticide\", 1 January 2014 (2014-01-01), pages 1-8, XP55643910, Retrieved from the Internet: URL:https://bionema.com/Technical\\_notes.pd f [retrieved on 2019-11-19] the whole document A EP 2 078 746 A1 (GREEN LIFE LAB LTD [CN]) 1-15 15 Ju1y 2009 (2009-07-15) the whole document A CHING PIAO LIU ET AL: \"Formulation and 1-15 characterization of the microencapsulated entomopathogenic fungus Metarhizium anisopliae MA126\", JOURNAL OF MICROEÑCAPSULATION., vol. 26, no. 5, 20 0ctober 2008 (2008-10-20), pages 377-384, XP55528487, GB ISSN: 0265-2048, D0I: 10.1080/02652040802365455 cited in the application the whole document A NOBLE RALPH ET AL: \"Improving biocontrol 1-15 of black vine weevil (Otiorhynchus sulcatus) with entomopathogenic fungi in growing media by incorporating spent mushroom compost\", BIOCONTROL, KLUWER ACADEMIC PUBLISHERS, DORDRECHT, NL, vol. 63, no. 5, 13 March 2018 (2018-03-13) , pages 697-706, XP036590551, ISSN: 1386-6141, D0I: 10.1007/S10526-018-9877-5 [retrieved on 2018-03-13] the whole document A WRAIGHT S P ET AL: \"Efficacy of spray 1-15 applications of entomopathogenic fungi against western flower thrips infesting greenhouse impatiens under variable moisture conditions\" BIOLOGICAL CONTROL, SAN DIEGO, CA, US, vol. 97, 26 February 2016 (2016-02-26), pages 31-47, XP029497545, ISSN: 1049-9644, D0I: 10.1016/J.BI0CONTROL.2016.02.016 the whole document | |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ## INTERNATIONAL SEARCH REPORT Information on patent family members International application No PCT/GB2019/052584 | Patent document Publication Patent family Publication cited in search report date member(s) date WO 2017200563 A1 23-11-2017 BR 112018073601 A2 26-02-2019 CA 3023483 A1 23-11-2017 EP 3457854 A1 27-03-2019 US 2019281834 A1 19-09-2019 WO 2017200563 A1 23-11-2017 EP 2078746 A1 15-07-2009 AU 2006350196 A1 08-05-2008 BR PI0621988 A2 27-12-2011 CN 101548006 A 30-09-2009 EP 2078746 A1 15-07-2009 WO 2008052391 A1 08-05-2008 | |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|"
+    }
+  ]
+}
