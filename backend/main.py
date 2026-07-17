@@ -11,6 +11,8 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from openai import OpenAI
 from pydantic import BaseModel
+from qdrant_client import QdrantClient
+
 from backend.config import get_settings
 from backend.retrieval.hybrid_query import hybrid_search
 from backend.retrieval.rerank import RankedChunk, rerank
@@ -214,7 +216,11 @@ async def query(request: QueryRequest) -> QueryResponse:
     if cached_response is not None:
         return cached_response
 
-    ranked = _get_or_build_ranked(question, cache_key)
+    try:
+        ranked = _get_or_build_ranked(question, cache_key)
+    except Exception:
+        ranked = []
+
     try:
         result: SynthesisResult = synthesize(question, ranked, settings=settings)
     except Exception:
@@ -240,7 +246,10 @@ async def query_evidence(request: QueryRequest) -> QueryResponse:
     if cached_response is not None:
         return cached_response
 
-    ranked = _get_or_build_ranked(question, cache_key)
+    try:
+        ranked = _get_or_build_ranked(question, cache_key)
+    except Exception:
+        ranked = []
     return _to_query_response(_evidence_preview_result(ranked))
 
 
