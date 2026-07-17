@@ -266,13 +266,11 @@ async def health() -> dict:
         status["qdrant"] = f"error: {exc}"
         status["status"] = "degraded"
 
-    # Voyage
-    try:
-        voyage_client = voyageai.Client(api_key=settings.voyage_api_key)
-        voyage_client.embed(["health"], model="voyage-3-large")
-        status["voyage"] = "ok"
-    except Exception as exc:
-        status["voyage"] = f"error: {exc}"
+    # Voyage — only verify the key is configured, skip live embed to preserve 3 RPM free quota
+    if settings.voyage_api_key:
+        status["voyage"] = "configured"
+    else:
+        status["voyage"] = "error: VOYAGE_API_KEY not set"
         status["status"] = "degraded"
 
     # Kimi

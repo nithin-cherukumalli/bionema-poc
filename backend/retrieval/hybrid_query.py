@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import time
 from dataclasses import dataclass
 from typing import Any
 
@@ -43,8 +44,18 @@ class RetrievedChunk:
 
 def embed_query_dense(query: str, settings: Settings) -> list[float]:
     client = voyageai.Client(api_key=settings.voyage_api_key)
-    result = client.embed([query], model=VOYAGE_EMBED_MODEL, input_type=VOYAGE_INPUT_TYPE)
-    return result.embeddings[0]
+    for attempt in range(3):
+        try:
+            result = client.embed([query], model=VOYAGE_EMBED_MODEL, input_type=VOYAGE_INPUT_TYPE)
+            return result.embeddings[0]
+        except Exception as exc:
+            if attempt == 2:
+                raise
+            # Rate limit: wait 20s (3 RPM = one request per 20s) then retry
+            if "rate" in str(exc).lower() or "429" in str(exc):
+                time.sleep(20)
+            else:
+                raise
 
 
 def embed_query_sparse(query: str) -> models.SparseVector:
