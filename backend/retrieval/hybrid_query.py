@@ -3,28 +3,27 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from typing import Any
 
 import voyageai
-from fastembed import SparseTextEmbedding
 from qdrant_client import QdrantClient, models
 
 from backend.config import Settings, get_settings
-from backend.ingest.embed_upsert import (
-    COLLECTION_NAME,
-    SPARSE_MODEL_NAME,
-    VOYAGE_EMBED_MODEL,
-    build_qdrant_client,
-)
 
+COLLECTION_NAME = "bionema_poc_v1"
+SPARSE_MODEL_NAME = "Qdrant/bm25"
+VOYAGE_EMBED_MODEL = "voyage-3-large"
 TOP_K_PREFETCH = 16
 VOYAGE_INPUT_TYPE = "query"
 
-_sparse_model: SparseTextEmbedding | None = None
+_sparse_model: Any | None = None
 
 
-def _get_sparse_model() -> SparseTextEmbedding:
+def _get_sparse_model() -> Any:
     global _sparse_model
     if _sparse_model is None:
+        from fastembed import SparseTextEmbedding
+
         _sparse_model = SparseTextEmbedding(model_name=SPARSE_MODEL_NAME)
     return _sparse_model
 
@@ -56,6 +55,10 @@ def embed_query_sparse(query: str) -> models.SparseVector:
         indices=emb.indices.tolist(),
         values=emb.values.tolist(),
     )
+
+
+def build_qdrant_client(settings: Settings) -> QdrantClient:
+    return QdrantClient(url=settings.qdrant_url, api_key=settings.qdrant_api_key)
 
 
 def hybrid_search(

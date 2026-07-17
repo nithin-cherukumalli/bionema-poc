@@ -11,19 +11,24 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from openai import OpenAI
 from pydantic import BaseModel
+from qdrant_client import QdrantClient
 
 from backend.config import get_settings
-from backend.ingest.embed_upsert import COLLECTION_NAME, build_qdrant_client
 from backend.retrieval.hybrid_query import hybrid_search
 from backend.retrieval.rerank import RankedChunk, rerank
 from backend.synthesis.synthesize import Citation, SynthesisResult, synthesize
 
+COLLECTION_NAME = "bionema_poc_v1"
 settings = get_settings()
 QUERY_CACHE_TTL_SECONDS = 60 * 60
 QUERY_CACHE_MAX_ITEMS = 128
 RANKED_CACHE_TTL_SECONDS = 5 * 60
 _query_cache: OrderedDict[str, tuple[float, QueryResponse]] = OrderedDict()
 _ranked_cache: OrderedDict[str, tuple[float, list[RankedChunk]]] = OrderedDict()
+
+
+def build_qdrant_client() -> QdrantClient:
+    return QdrantClient(url=settings.qdrant_url, api_key=settings.qdrant_api_key)
 
 app = FastAPI(
     title="Bionema Retrieval POC",
@@ -253,7 +258,7 @@ async def health() -> dict:
 
     # Qdrant
     try:
-        client = build_qdrant_client(settings)
+        client = build_qdrant_client()
         client.get_collection(COLLECTION_NAME)
         status["qdrant"] = "ok"
     except Exception as exc:
