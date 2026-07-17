@@ -2,11 +2,14 @@
 
 from __future__ import annotations
 
+import logging
 import time
 from collections import OrderedDict
 from copy import deepcopy
 
 import voyageai
+
+logger = logging.getLogger(__name__)
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from openai import OpenAI
@@ -218,12 +221,14 @@ async def query(request: QueryRequest) -> QueryResponse:
 
     try:
         ranked = _get_or_build_ranked(question, cache_key)
-    except Exception:
+    except Exception as exc:
+        logger.exception("Retrieval failed: %s", exc)
         ranked = []
 
     try:
         result: SynthesisResult = synthesize(question, ranked, settings=settings)
-    except Exception:
+    except Exception as exc:
+        logger.exception("Kimi synthesis failed: %s", exc)
         result = _retrieval_fallback_result(ranked)
     else:
         if ranked and result.confidence == "partial" and not result.citations:
@@ -248,7 +253,8 @@ async def query_evidence(request: QueryRequest) -> QueryResponse:
 
     try:
         ranked = _get_or_build_ranked(question, cache_key)
-    except Exception:
+    except Exception as exc:
+        logger.exception("Retrieval failed for /query/evidence: %s", exc)
         ranked = []
     return _to_query_response(_evidence_preview_result(ranked))
 

@@ -7,10 +7,13 @@ Every factual claim must trace to a retrieved chunk or the model says "not found
 from __future__ import annotations
 
 import json
+import logging
 import re
 from dataclasses import dataclass
 
 from openai import OpenAI
+
+logger = logging.getLogger(__name__)
 
 from backend.config import Settings, get_settings
 from backend.retrieval.rerank import RankedChunk
@@ -91,10 +94,12 @@ def synthesize(
     )
 
     raw = response.choices[0].message.content or ""
+    logger.info("Kimi raw response (first 500 chars): %s", raw[:500])
 
     try:
         data = _extract_json(raw)
     except (json.JSONDecodeError, ValueError):
+        logger.warning("Failed to parse Kimi JSON. Raw: %s", raw[:500])
         return SynthesisResult(
             answer=raw or NOT_FOUND_ANSWER,
             confidence="partial",
