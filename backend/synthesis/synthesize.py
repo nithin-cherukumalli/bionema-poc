@@ -47,11 +47,20 @@ def create_kimi_client(settings: Settings | None = None) -> OpenAI:
 
 def _extract_json(raw: str) -> dict:
     raw = raw.strip()
-    # Strip markdown code fences if present
+    # Try markdown code fences first
     match = re.search(r"```(?:json)?\s*([\s\S]+?)\s*```", raw)
     if match:
-        raw = match.group(1)
-    return json.loads(raw)
+        return json.loads(match.group(1))
+    # Try bare JSON parse
+    try:
+        return json.loads(raw)
+    except (json.JSONDecodeError, ValueError):
+        pass
+    # Extract first {...} block from text that has prose around it
+    brace_match = re.search(r"\{[\s\S]*\}", raw)
+    if brace_match:
+        return json.loads(brace_match.group())
+    raise ValueError("No JSON found in response")
 
 
 def synthesize(
@@ -77,7 +86,7 @@ def synthesize(
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_message},
         ],
-        temperature=1,
+        temperature=0.2,
         max_tokens=KIMI_MAX_TOKENS,
     )
 
