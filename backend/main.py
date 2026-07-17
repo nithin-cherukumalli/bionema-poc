@@ -11,8 +11,6 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from openai import OpenAI
 from pydantic import BaseModel
-from qdrant_client import QdrantClient
-
 from backend.config import get_settings
 from backend.retrieval.hybrid_query import hybrid_search
 from backend.retrieval.rerank import RankedChunk, rerank
@@ -38,15 +36,9 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        settings.frontend_origin,
-        "http://localhost:3000",
-        "http://localhost:5173",
-        "https://*.vercel.app",
-        "*",
-    ],
-    allow_credentials=True,
-    allow_methods=["*"],
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
 
