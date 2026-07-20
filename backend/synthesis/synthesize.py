@@ -23,6 +23,7 @@ NOT_FOUND_ANSWER = "The provided documents do not contain sufficient information
 KIMI_MAX_TOKENS = 600
 
 _LOCATOR_RE = re.compile(r"\[\d{4}\]")
+_BOLD_LOCATOR_RE = re.compile(r"\*\*(\[\d{4}\])\*\*")
 
 
 @dataclass(frozen=True)
@@ -50,20 +51,49 @@ def create_kimi_client(settings: Settings | None = None) -> OpenAI:
 
 def _extract_json(raw: str) -> dict:
     raw = raw.strip()
+
+    def clean_strings(value):
+        if isinstance(value, str):
+            return _BOLD_LOCATOR_RE.sub(r"\1", value)
+        if isinstance(value, list):
+            return [clean_strings(item) for item in value]
+        if isinstance(value, dict):
+            return {key: clean_strings(item) for key, item in value.items()}
+        return value
+
+    def parse_json(candidate: str) -> dict:
+        candidate = _BOLD_LOCATOR_RE.sub(r"\1", candidate.strip())
+        try:
+            parsed = json.loads(candidate)
+        except json.JSONDecodeError:
+            parsed = json.loads(candidate, strict=False)
+        return clean_strings(parsed)
+
     # Try markdown code fences first
     match = re.search(r"```(?:json)?\s*([\s\S]+?)\s*```", raw)
     if match:
-        return json.loads(match.group(1))
+        return parse_json(match.group(1))
     # Try bare JSON parse
     try:
-        return json.loads(raw)
+        return parse_json(raw)
     except (json.JSONDecodeError, ValueError):
         pass
     # Extract first {...} block from text that has prose around it
     brace_match = re.search(r"\{[\s\S]*\}", raw)
     if brace_match:
-        return json.loads(brace_match.group())
+        return parse_json(brace_match.group())
     raise ValueError("No JSON found in response")
+
+
+def _normalize_locator(value: str) -> str:
+    value = value.strip()
+    value = _BOLD_LOCATOR_RE.sub(r"\1", value)
+    match = _LOCATOR_RE.search(value)
+    return match.group() if match else value
+
+
+def _clean_answer_text(value: str) -> str:
+    return _BOLD_LOCATOR_RE.sub(r"\1", value).strip()
 
 
 def _fallback_citations(chunks: list[RankedChunk], limit: int = 3) -> list[Citation]:
@@ -123,7 +153,7 @@ def synthesize(
             citations=_fallback_citations(chunks),
         )
 
-    answer = data.get("answer", NOT_FOUND_ANSWER)
+    answer = _clean_answer_text(data.get("answer", NOT_FOUND_ANSWER))
     confidence = data.get("confidence", "partial")
     if confidence not in {"high", "partial", "not_found"}:
         confidence = "partial"
@@ -135,7 +165,7 @@ def synthesize(
     raw_citations = data.get("citations") or []
     citations: list[Citation] = []
     for raw_cit in raw_citations:
-        pid = raw_cit.get("paragraph_id", "")
+        pid = _normalize_locator(raw_cit.get("paragraph_id", ""))
         citations.append(
             Citation(
                 paragraph_id=pid,

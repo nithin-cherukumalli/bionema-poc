@@ -70,6 +70,24 @@ class TestExtractJson:
         result = _extract_json(raw)
         assert result["confidence"] == "partial"
 
+    def test_json_in_fence_with_bold_locators(self):
+        raw = '''```json
+{
+  "answer": "BNL 101 and BNL 102 are both deposited strains [0010]**[0011]**.",
+  "confidence": "partial",
+  "citations": [
+    {
+      "paragraph_id": "**[0010]**",
+      "section": "SUMMARY",
+      "quote": "BNL 101 deposited... BNL 102 deposited..."
+    }
+  ]
+}
+```'''
+        result = _extract_json(raw)
+        assert result["answer"] == "BNL 101 and BNL 102 are both deposited strains [0010][0011]."
+        assert result["citations"][0]["paragraph_id"] == "[0010]"
+
 
 class TestSynthesize:
     def test_empty_chunks_returns_not_found(self):
@@ -108,6 +126,30 @@ class TestSynthesize:
         assert mock_client.chat.completions.create.call_args.kwargs["extra_body"] == {
             "thinking": {"type": "disabled"}
         }
+
+    def test_synthesis_normalizes_bold_locator_markers(self):
+        chunks = [_make_ranked("[0010]", "BNL 101 and BNL 102 deposited strains.")]
+
+        mock_response_content = (
+            '```json\n{"answer": "Both strains are deposited **[0010]**.", '
+            '"confidence": "partial", '
+            '"citations": [{"paragraph_id": "**[0010]**", "section": "SUMMARY", '
+            '"quote": "Both strains are deposited"}]}\n```'
+        )
+        mock_choice = MagicMock()
+        mock_choice.message.content = mock_response_content
+        mock_response = MagicMock()
+        mock_response.choices = [mock_choice]
+
+        with patch("backend.synthesis.synthesize.create_kimi_client") as mock_kimi:
+            mock_client = MagicMock()
+            mock_client.chat.completions.create.return_value = mock_response
+            mock_kimi.return_value = mock_client
+
+            result = synthesize("Compare strains", chunks)
+
+        assert result.answer == "Both strains are deposited [0010]."
+        assert result.citations[0].paragraph_id == "[0010]"
 
     def test_invalid_json_response_returns_partial(self):
         chunks = [_make_ranked()]

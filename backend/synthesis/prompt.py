@@ -17,6 +17,8 @@ Rules:
    "The provided documents do not contain sufficient information to answer this question." \
    and return confidence "not_found" with an empty citations array.
 5. If the excerpts partially answer, give what you can with citations and use confidence "partial".
+6. Do not use markdown formatting anywhere in the JSON values. Citation markers must be plain \
+   strings like [0072], never **[0072]**.
 
 Respond with ONLY the following JSON (no prose outside it):
 {
