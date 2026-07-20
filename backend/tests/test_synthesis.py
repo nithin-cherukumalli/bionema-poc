@@ -104,7 +104,7 @@ class TestSynthesize:
         assert len(result.citations) == 1
         assert result.citations[0].paragraph_id == "[0072]"
         assert result.citations[0].score == 0.9
-        assert mock_client.chat.completions.create.call_args.kwargs["temperature"] == 1
+        assert "temperature" not in mock_client.chat.completions.create.call_args.kwargs
         assert mock_client.chat.completions.create.call_args.kwargs["extra_body"] == {
             "thinking": {"type": "disabled"}
         }

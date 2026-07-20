@@ -21,9 +21,6 @@ from backend.synthesis.prompt import SYSTEM_PROMPT, build_user_message
 
 NOT_FOUND_ANSWER = "The provided documents do not contain sufficient information to answer this question."
 KIMI_MAX_TOKENS = 600
-# The deployed Kimi model accepts only its provider default, 1. Passing a
-# lower value causes a 400 before synthesis can begin.
-KIMI_TEMPERATURE = 1
 
 _LOCATOR_RE = re.compile(r"\[\d{4}\]")
 
@@ -104,7 +101,6 @@ def synthesize(
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_message},
         ],
-        temperature=KIMI_TEMPERATURE,
         max_tokens=KIMI_MAX_TOKENS,
         extra_body={"thinking": {"type": "disabled"}},
     )
