@@ -105,6 +105,9 @@ class TestSynthesize:
         assert result.citations[0].paragraph_id == "[0072]"
         assert result.citations[0].score == 0.9
         assert mock_client.chat.completions.create.call_args.kwargs["temperature"] == 1
+        assert mock_client.chat.completions.create.call_args.kwargs["extra_body"] == {
+            "thinking": {"type": "disabled"}
+        }
 
     def test_invalid_json_response_returns_partial(self):
         chunks = [_make_ranked()]

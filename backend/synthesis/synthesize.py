@@ -106,6 +106,7 @@ def synthesize(
         ],
         temperature=KIMI_TEMPERATURE,
         max_tokens=KIMI_MAX_TOKENS,
+        extra_body={"thinking": {"type": "disabled"}},
     )
 
     raw = response.choices[0].message.content or ""
