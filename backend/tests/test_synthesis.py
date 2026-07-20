@@ -99,12 +99,7 @@ class TestSynthesize:
     def test_successful_synthesis(self):
         chunks = [_make_ranked("[0072]", "BNL 102 showed 90% mortality against WFT.")]
 
-        mock_response_content = (
-            '{"answer": "BNL 102 showed 90% mortality [0072].", '
-            '"confidence": "high", '
-            '"citations": [{"paragraph_id": "[0072]", "section": "DETAILED DESCRIPTION", '
-            '"quote": "BNL 102 showed 90% mortality"}]}'
-        )
+        mock_response_content = "BNL 102 showed 90% mortality [0072]."
         mock_choice = MagicMock()
         mock_choice.message.content = mock_response_content
         mock_response = MagicMock()
@@ -126,6 +121,31 @@ class TestSynthesize:
         assert mock_client.chat.completions.create.call_args.kwargs["extra_body"] == {
             "thinking": {"type": "disabled"}
         }
+
+    def test_synthesis_tolerates_legacy_json_response(self):
+        chunks = [_make_ranked("[0072]", "BNL 102 showed 90% mortality against WFT.")]
+
+        mock_response_content = (
+            '{"answer": "BNL 102 showed 90% mortality [0072].", '
+            '"confidence": "high", '
+            '"citations": [{"paragraph_id": "[0072]", "section": "DETAILED DESCRIPTION", '
+            '"quote": "BNL 102 showed 90% mortality"}]}'
+        )
+        mock_choice = MagicMock()
+        mock_choice.message.content = mock_response_content
+        mock_response = MagicMock()
+        mock_response.choices = [mock_choice]
+
+        with patch("backend.synthesis.synthesize.create_kimi_client") as mock_kimi:
+            mock_client = MagicMock()
+            mock_client.chat.completions.create.return_value = mock_response
+            mock_kimi.return_value = mock_client
+
+            result = synthesize("What is the efficacy of BNL 102?", chunks)
+
+        assert result.confidence == "high"
+        assert result.answer == "BNL 102 showed 90% mortality [0072]."
+        assert result.citations[0].paragraph_id == "[0072]"
 
     def test_synthesis_normalizes_bold_locator_markers(self):
         chunks = [_make_ranked("[0010]", "BNL 101 and BNL 102 deposited strains.")]
@@ -151,7 +171,7 @@ class TestSynthesize:
         assert result.answer == "Both strains are deposited [0010]."
         assert result.citations[0].paragraph_id == "[0010]"
 
-    def test_invalid_json_response_returns_partial(self):
+    def test_uncited_response_is_rejected(self):
         chunks = [_make_ranked()]
 
         mock_choice = MagicMock()
@@ -166,11 +186,9 @@ class TestSynthesize:
 
             result = synthesize("test question", chunks)
 
-        assert result.confidence == "partial"
-        assert "Kimi returned an unstructured response" in result.answer
-        assert "I cannot parse this as JSON." in result.answer
-        assert len(result.citations) == 1
-        assert result.citations[0].paragraph_id == "[0072]"
+        assert result.confidence == "not_found"
+        assert result.answer == NOT_FOUND_ANSWER
+        assert result.citations == []
 
     def test_not_found_confidence(self):
         chunks = [_make_ranked()]

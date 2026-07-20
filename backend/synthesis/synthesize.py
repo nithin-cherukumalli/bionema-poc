@@ -20,7 +20,7 @@ from backend.retrieval.rerank import RankedChunk
 from backend.synthesis.prompt import SYSTEM_PROMPT, build_user_message
 
 NOT_FOUND_ANSWER = "The provided documents do not contain sufficient information to answer this question."
-KIMI_MAX_TOKENS = 600
+KIMI_MAX_TOKENS = 1400
 
 _LOCATOR_RE = re.compile(r"\[\d{4}\]")
 _BOLD_LOCATOR_RE = re.compile(r"\*\*(\[\d{4}\])\*\*")
@@ -93,7 +93,25 @@ def _normalize_locator(value: str) -> str:
 
 
 def _clean_answer_text(value: str) -> str:
+    value = value.strip()
+    fence_match = re.search(r"```(?:json|text)?\s*([\s\S]+?)\s*```", value)
+    if fence_match:
+        value = fence_match.group(1).strip()
     return _BOLD_LOCATOR_RE.sub(r"\1", value).strip()
+
+
+def _answer_text_from_raw(raw: str) -> str:
+    raw = raw.strip()
+    if not raw:
+        raise ValueError("Kimi returned empty content")
+
+    # Backward compatibility for any provider response that still comes back as JSON.
+    try:
+        data = _extract_json(raw)
+    except (json.JSONDecodeError, ValueError):
+        return _clean_answer_text(raw)
+
+    return _clean_answer_text(data.get("answer", raw))
 
 
 def _fallback_citations(chunks: list[RankedChunk], limit: int = 3) -> list[Citation]:
@@ -139,61 +157,42 @@ def synthesize(
     logger.info("Kimi raw response (first 500 chars): %r", raw[:500])
 
     try:
-        data = _extract_json(raw)
-    except (json.JSONDecodeError, ValueError):
-        logger.warning("Failed to parse Kimi JSON. Raw: %r", raw[:500])
-        raw_answer = raw.strip()
-        if raw_answer:
-            answer = f"Kimi returned an unstructured response:\n\n{raw_answer}"
-        else:
-            answer = "Kimi returned an empty response. Retrieved evidence is shown in citations."
-        return SynthesisResult(
-            answer=answer,
-            confidence="partial",
-            citations=_fallback_citations(chunks),
-        )
-
-    answer = _clean_answer_text(data.get("answer", NOT_FOUND_ANSWER))
-    confidence = data.get("confidence", "partial")
-    if confidence not in {"high", "partial", "not_found"}:
-        confidence = "partial"
+        answer = _answer_text_from_raw(raw)
+    except ValueError as exc:
+        logger.warning("Kimi response could not be used: %s", exc)
+        raise
 
     # Build citation objects enriched with rerank scores
     chunk_by_locator = {c.locator: c for c in chunks}
     score_by_locator = {c.locator: c.rerank_score for c in chunks}
 
-    raw_citations = data.get("citations") or []
     citations: list[Citation] = []
-    for raw_cit in raw_citations:
-        pid = _normalize_locator(raw_cit.get("paragraph_id", ""))
-        citations.append(
-            Citation(
-                paragraph_id=pid,
-                section=raw_cit.get("section", ""),
-                quote=raw_cit.get("quote", ""),
-                score=score_by_locator.get(pid, 0.0),
+    seen: set[str] = set()
+    for match in _LOCATOR_RE.finditer(answer):
+        pid = _normalize_locator(match.group())
+        if pid in seen:
+            continue
+        seen.add(pid)
+        chunk = chunk_by_locator.get(pid)
+        if chunk:
+            citations.append(
+                Citation(
+                    paragraph_id=pid,
+                    section=chunk.section,
+                    quote=chunk.text[:220],
+                    score=score_by_locator.get(pid, chunk.rerank_score),
+                )
             )
+
+    if NOT_FOUND_ANSWER in answer:
+        return SynthesisResult(answer=NOT_FOUND_ANSWER, confidence="not_found", citations=[])
+
+    if not citations:
+        logger.warning("Kimi answer omitted required citation locators. Raw: %r", raw[:500])
+        return SynthesisResult(
+            answer=NOT_FOUND_ANSWER,
+            confidence="not_found",
+            citations=[],
         )
 
-    # Recovery: if citations is empty but the answer is real, scan the answer text
-    # for [NNNN] locator patterns and build citations from the matched ranked chunks.
-    # This handles the case where Kimi includes inline markers but forgets the array.
-    if not citations and answer and NOT_FOUND_ANSWER not in answer:
-        seen: set[str] = set()
-        for match in _LOCATOR_RE.finditer(answer):
-            pid = match.group()
-            if pid in seen:
-                continue
-            seen.add(pid)
-            chunk = chunk_by_locator.get(pid)
-            if chunk:
-                citations.append(
-                    Citation(
-                        paragraph_id=pid,
-                        section=chunk.section,
-                        quote=chunk.text[:120],
-                        score=chunk.rerank_score,
-                    )
-                )
-
-    return SynthesisResult(answer=answer, confidence=confidence, citations=citations)
+    return SynthesisResult(answer=answer, confidence="high", citations=citations)

@@ -12,26 +12,12 @@ Rules:
 1. Answer using only information in the excerpts below.
 2. Cite every factual claim with an inline marker matching the excerpt ID, e.g. [0072]. \
    Example: "BNL 102 shows up to 90% mortality against WFT [0072]."
-3. Populate the citations array with every excerpt you relied on.
-4. If the excerpts genuinely do not contain the answer, say exactly: \
-   "The provided documents do not contain sufficient information to answer this question." \
-   and return confidence "not_found" with an empty citations array.
-5. If the excerpts partially answer, give what you can with citations and use confidence "partial".
-6. Do not use markdown formatting anywhere in the JSON values. Citation markers must be plain \
-   strings like [0072], never **[0072]**.
+3. Do not use markdown formatting. Citation markers must be plain strings like [0072], never **[0072]**.
+4. Keep the answer concise: at most 5 short sentences.
+5. If the excerpts genuinely do not contain the answer, say exactly: \
+   "The provided documents do not contain sufficient information to answer this question."
 
-Respond with ONLY the following JSON (no prose outside it):
-{
-  "answer": "<your answer with inline [ID] citation markers, or the not-found phrase>",
-  "confidence": "<high | partial | not_found>",
-  "citations": [
-    {
-      "paragraph_id": "<locator from excerpt header, e.g. [0072]>",
-      "section": "<section name>",
-      "quote": "<short exact quote from that excerpt>"
-    }
-  ]
-}
+Respond with ONLY the final answer text. Do not return JSON.
 """
 
 

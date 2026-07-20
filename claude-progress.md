@@ -27,6 +27,54 @@ verified, what's still broken, what to do next.
 
 ---
 
+## Session 6 — Remove Kimi JSON parsing from critical path
+
+**Status**: Kimi synthesis no longer depends on valid JSON output.
+
+**Done**:
+- Changed the Kimi prompt to request plain final answer text with inline locator citations, not JSON.
+- Updated synthesis to build the API `citations[]` server-side by extracting `[NNNN]` markers from the answer and matching them to retrieved ranked chunks.
+- Kept backward compatibility for legacy JSON/fenced JSON responses, but JSON parsing is no longer required for normal answers.
+- Rejects uncited model text as `not_found` instead of showing uncited claims.
+
+**Verified**:
+- `.venv/bin/python -m pytest backend/ -v` passed: 29 tests.
+- `cd frontend && npm run build` passed.
+- `cd frontend && npm run lint` passed.
+
+**Still broken / unverified**:
+- Needs Render redeploy and live `/query` smoke test.
+- If Kimi returns empty content or no citation markers, the backend will not show uncited claims.
+
+**Next session should**: Redeploy Render, then test the coating/formulation and BNL comparison questions from the deployed frontend.
+
+---
+
+## Session 5 — Final-answer-only UX and Kimi JSON stability
+
+**Status**: Frontend no longer shows retrieved evidence before synthesis. Backend no longer replaces failed synthesis with retrieved evidence on `/query`.
+
+**Done**:
+- Removed frontend `/query/evidence` preview flow from the main user path.
+- Replaced the loading skeleton with a subtle dots animation while `/query` waits for Kimi synthesis.
+- Changed `/query` to return a clear 502 if Kimi synthesis throws, instead of displaying retrieved evidence as the final answer.
+- Stopped replacing partial no-citation Kimi output with retrieved evidence.
+- Increased Kimi output budget to reduce truncated JSON.
+- Tightened synthesis prompt for concise JSON values and short quotes.
+
+**Verified**:
+- `.venv/bin/python -m pytest backend/ -v` passed: 28 tests.
+- `cd frontend && npm run build` passed.
+- `cd frontend && npm run lint` passed.
+
+**Still broken / unverified**:
+- Live Render behavior still needs redeploy and a fresh `/query` test.
+- Kimi may still occasionally return malformed JSON, but the parser now handles fenced JSON and bold locators.
+
+**Next session should**: Redeploy Render and Vercel, then test the client URL end to end with the coating/formulation question and the BNL comparison question.
+
+---
+
 ## Session 4 — Latency reductions without hard Kimi timeout
 
 **Status**: Implemented non-timeout latency improvements and verified backend/frontend builds.
