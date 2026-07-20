@@ -69,6 +69,18 @@ def _extract_json(raw: str) -> dict:
     raise ValueError("No JSON found in response")
 
 
+def _fallback_citations(chunks: list[RankedChunk], limit: int = 3) -> list[Citation]:
+    return [
+        Citation(
+            paragraph_id=chunk.locator,
+            section=chunk.section,
+            quote=chunk.text[:360],
+            score=chunk.rerank_score,
+        )
+        for chunk in chunks[:limit]
+    ]
+
+
 def synthesize(
     question: str,
     chunks: list[RankedChunk],
@@ -97,16 +109,21 @@ def synthesize(
     )
 
     raw = response.choices[0].message.content or ""
-    logger.info("Kimi raw response (first 500 chars): %s", raw[:500])
+    logger.info("Kimi raw response (first 500 chars): %r", raw[:500])
 
     try:
         data = _extract_json(raw)
     except (json.JSONDecodeError, ValueError):
-        logger.warning("Failed to parse Kimi JSON. Raw: %s", raw[:500])
+        logger.warning("Failed to parse Kimi JSON. Raw: %r", raw[:500])
+        raw_answer = raw.strip()
+        if raw_answer:
+            answer = f"Kimi returned an unstructured response:\n\n{raw_answer}"
+        else:
+            answer = "Kimi returned an empty response. Retrieved evidence is shown in citations."
         return SynthesisResult(
-            answer=raw or NOT_FOUND_ANSWER,
+            answer=answer,
             confidence="partial",
-            citations=[],
+            citations=_fallback_citations(chunks),
         )
 
     answer = data.get("answer", NOT_FOUND_ANSWER)

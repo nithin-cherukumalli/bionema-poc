@@ -122,7 +122,10 @@ class TestSynthesize:
             result = synthesize("test question", chunks)
 
         assert result.confidence == "partial"
-        assert result.citations == []
+        assert "Kimi returned an unstructured response" in result.answer
+        assert "I cannot parse this as JSON." in result.answer
+        assert len(result.citations) == 1
+        assert result.citations[0].paragraph_id == "[0072]"
 
     def test_not_found_confidence(self):
         chunks = [_make_ranked()]
