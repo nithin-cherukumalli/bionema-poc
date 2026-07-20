@@ -5,6 +5,28 @@ verified, what's still broken, what to do next.
 
 ---
 
+## Session 5 — Kimi temperature compatibility fix
+
+**Status**: Fixed the Kimi request parameter that caused every synthesis call to fail with HTTP 400.
+
+**Done**:
+- Updated the Kimi synthesis request to use `temperature=1`, the only accepted value for the deployed Kimi model.
+- Added a regression assertion that locks the provider request contract to `temperature=1`.
+- Preserved the existing evidence-only fallback for genuinely unavailable or malformed Kimi responses.
+
+**Verified**:
+- `.venv/bin/python -m pytest backend/tests/test_synthesis.py -q` passed: 10 tests, including the new request-contract regression test.
+- `.venv/bin/python -m pytest backend/ -q` passed: 26 tests.
+- One live, unpaced eval question completed against the configured services without the previous Kimi `invalid temperature` 400. Retrieval was Recall@5=1.000 and MRR=1.000; Kimi returned an empty response, so groundedness was 0.000 and the safe fallback remained active. The run is recorded in `backend/eval/results.md`.
+
+**Still broken / unverified**:
+- Full 25-question synthesis eval was not re-run; its default free-tier Voyage pacing is 25 seconds between questions (roughly 10 minutes total).
+- The live Kimi request no longer has a parameter error, but it returned an empty response in this single check. Investigate provider response reliability separately if it continues after deployment.
+
+**Next session should**: Deploy this parameter change to Render, then run the full eval when the free-tier rate-limit window permits.
+
+---
+
 ## Session 4 — Latency reductions without hard Kimi timeout
 
 **Status**: Implemented non-timeout latency improvements and verified backend/frontend builds.

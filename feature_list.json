@@ -34,7 +34,7 @@
       "title": "Citation-constrained synthesis via Kimi API",
       "status": "todo",
       "verification": "pytest backend/tests/test_synthesis.py",
-      "notes": "Every claim must carry [paragraph_id]. Explicit not-found path required and tested. Prompt lives in backend/synthesis/prompt.py. Uses Kimi via the OpenAI-compatible client."
+      "notes": "Every claim must carry [paragraph_id]. Explicit not-found path required and tested. Prompt lives in backend/synthesis/prompt.py. Uses Kimi via the OpenAI-compatible client. Kimi requests use temperature=1 because the deployed model rejects other values; full eval remains outstanding."
     },
     {
       "id": "F06",
